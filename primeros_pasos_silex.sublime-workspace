@@ -572,6 +572,10 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/ejemplo_silex/templates/index.html",
+		"/C/wamp/www/silex/README.md",
+		"/C/wamp/www/silex/.gitignore",
+		"/C/Users/rchecnes/.ssh/id_rsa.pub",
 		"/C/wamp/www/silex/web/index.php",
 		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Resources/views/ClasificadorGasto/clasificadorGastoxActividad.html.twig",
 		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Twig/CosteoReporteActividadExtension.php",
@@ -695,11 +699,7 @@
 		"/C/Users/rchecnes/AppData/Roaming/Sublime Text 2/Packages/User/SFTP.errors.log",
 		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Resources/views/ReplicaDiplomado/listado2.html.twig",
 		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Controller/ReplicaDiplomado2Controller.php",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Form/ReplicaDiplomado2Type.php",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Resources/config/routing/replicadiplomado2.yml",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Resources/views/ReplicaDiplomado2/index.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Resources/config/routing/grupoautocuidadodocente.yml",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Resources/views/GrupoAutocuidadoDocente/index.html.twig"
+		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Form/ReplicaDiplomado2Type.php"
 	],
 	"find":
 	{
@@ -1443,6 +1443,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 241.0,
+	"side_bar_width": 217.0,
 	"status_bar_visible": true
 }
