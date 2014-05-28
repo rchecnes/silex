@@ -14,6 +14,20 @@ $app->get('/', function () use ($app) {
 ->bind('homepage')
 ;
 
+
+$app->get('/publicidad', function () use ($app) {
+
+    $data['saludos'] = "Bienvenidos a pagina de publicidad de richard";
+    return $app['twig']->render('publicidad.html.twig', $data);
+})
+->bind('publicidad');
+
+
+/*$app->get('/usuario/{user_id}', function($user_id) use ($app){
+    return "Bienvenido usuario# {$user_id}";
+});*/
+
+
 $app->error(function (\Exception $e, $code) use ($app) {
     if ($app['debug']) {
         return;
