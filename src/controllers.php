@@ -17,6 +17,12 @@ $app->get('/', function () use ($app) {
 
 $app->get('/publicidad', function () use ($app) {
 
+    $data['paises'] = array(
+                        array('nombre'=>'Perú','codigo'=>'56454655'),
+                        array('nombre'=>'Venezuela','codigo'=>'89787554'),
+                        array('nombre'=>'Paraguay','codigo'=>'897898465'),
+                        array('nombre'=>'EEUU','codigo'=>'7987465455')
+                        );
     $data['saludos'] = "Bienvenidos a pagina de publicidad de richard";
     return $app['twig']->render('publicidad.html.twig', $data);
 })

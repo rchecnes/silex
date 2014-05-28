@@ -572,9 +572,14 @@
 	},
 	"file_history":
 	[
-		"/C/wamp/www/silex/web/index.php",
-		"/C/wamp/www/silex/templates/layout.html",
+		"/C/wamp/www/silex/templates/publicidad.html.twig",
 		"/C/wamp/www/silex/templates/index.html",
+		"/C/wamp/www/silex/config/prod.php",
+		"/C/wamp/www/silex/src/app.php",
+		"/C/wamp/www/silex/src/controllers.php",
+		"/C/wamp/www/silex/templates/layout.html",
+		"/C/wamp/www/silex/web/index.php",
+		"/C/wamp/www/silex/config/dev.php",
 		"/C/wamp/www/ejemplo_silex/templates/index.html",
 		"/C/wamp/www/silex/README.md",
 		"/C/wamp/www/silex/.gitignore",
@@ -694,12 +699,7 @@
 		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Resources/config/routing.yml",
 		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Controller/AcompanamientoIndividualController.pph",
 		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Form/GrupoAutocuidadoDocenteType.php",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Resources/config/routing/replicadiplomado.yml",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Form/ReplicaDiplomadoType.php",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Resources/views/ReplicaDiplomado/index.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Resources/views/ReplicaDiplomado/config.html.twig",
-		"/C/Users/rchecnes/AppData/Roaming/Sublime Text 2/Packages/User/SFTP.errors.log",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Resources/views/ReplicaDiplomado/listado2.html.twig"
+		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Resources/config/routing/replicadiplomado.yml"
 	],
 	"find":
 	{
@@ -1434,7 +1434,7 @@
 		[
 			[
 				"",
-				"/C/wamp/www/silex/aprendiendo silex.sublime-project"
+				"/C/wamp/www/sigma2/Sigma2.sublime-project"
 			]
 		],
 		"width": 380.0
