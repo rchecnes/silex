@@ -4,516 +4,108 @@
 		"selected_items":
 		[
 			[
+				"DRE",
+				"dre_id"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"acti",
+				"actividad_id"
+			],
+			[
+				"unida",
+				"unidad_medida"
+			],
+			[
 				"fet",
 				"fetchColumn"
 			],
 			[
-				"unidad_ejecu",
-				"unidad_ejecutora_id"
+				"cla",
+				"clasificador"
 			],
 			[
-				"getRe",
-				"getRepository"
-			],
-			[
-				"fetc",
-				"fetchAll"
-			],
-			[
-				"searc_A",
-				"search_ano"
-			],
-			[
-				"rtio",
-				"ratio27"
-			],
-			[
-				"ratio",
-				"ratio25"
-			],
-			[
-				"res",
-				"resp_primaria"
-			],
-			[
-				"key",
-				"key_ac_19"
-			],
-			[
-				"UNIDAD",
-				"unidad_medida"
-			],
-			[
-				"docente",
-				"docente_formador"
-			],
-			[
-				"canti",
-				"cantidad_actividad"
-			],
-			[
-				"DRE",
-				"dre"
-			],
-			[
-				"dre",
-				"dre_id"
-			],
-			[
-				"nive",
-				"nivel_educativo"
-			],
-			[
-				"print",
-				"print_r"
-			],
-			[
-				"re",
-				"request"
-			],
-			[
-				"tipo",
-				"tipo_eib_select"
-			],
-			[
-				"cantida",
-				"cantidad_kit"
-			],
-			[
-				"cant",
-				"cantidad_kit"
-			],
-			[
-				"dividir",
-				"dividir_monto"
-			],
-			[
-				"can",
-				"cantidad_kit"
-			],
-			[
-				"suma_doce",
-				"suma_docente_formador"
-			],
-			[
-				"suma_es",
-				"suma_estudiante_evaluad"
-			],
-			[
-				"suma_do",
-				"suma_docente"
-			],
-			[
-				"suma_d",
-				"suma_dre"
-			],
-			[
-				"divi",
-				"dividir_monto"
-			],
-			[
-				"sum",
-				"suma_ie"
-			],
-			[
-				"getNumeroIeIni",
-				"getNumeroIeInicialxUe"
-			],
-			[
-				"getNumeroPrima",
-				"getNumeroIePrimariaEibxUe"
-			],
-			[
-				"getNumeroIeInica",
-				"getNumeroIeInicialEibxUe"
-			],
-			[
-				"getNumeroIe",
-				"getNumeroIeInicialxUe"
-			],
-			[
-				"getNumeroAulasP",
-				"getNumeroAulasPrimariaxUe"
-			],
-			[
-				"getNumeroAulas",
-				"getNumeroAulasInicialxUe"
-			],
-			[
-				"getNumeroEstudani",
-				"getNumeroEstudiantesSecundariaxUe"
-			],
-			[
-				"getNumeroEstu",
-				"getNumeroEstudiantesPrimariaEibxUe"
-			],
-			[
-				"getNumeroEstuda",
-				"getNumeroEstudiantesPrimariaxUe"
-			],
-			[
-				"getNumeroEstudian",
-				"getNumeroEstudiantesInicialEibxUe"
-			],
-			[
-				"cant_aula",
-				"cant_aula_inicial"
-			],
-			[
-				"getNumeroLocal",
-				"getNumeroLocalInicialxUe"
-			],
-			[
-				"getNumeroAlas",
-				"getNumeroAulasPrimariaxUe"
-			],
-			[
-				"unida",
-				"unidad_ejecutora_id"
-			],
-			[
-				"else",
-				"elseif	elseif …"
-			],
-			[
-				"activida",
-				"actividad_id"
-			],
-			[
-				"para",
-				"params"
-			],
-			[
-				"getNumeroDocente",
-				"getNumeroDocentesSecundariaxUe"
-			],
-			[
-				"getNumeroLocalS",
-				"getNumeroLocalSecundariaxUe"
-			],
-			[
-				"getNumeroLocalP",
-				"getNumeroLocalPrimariaxUe"
-			],
-			[
-				"getNumeroLoca",
-				"getNumeroLocalInicialxUe"
-			],
-			[
-				"getNumeroe",
-				"getNumeroEstudiantesInicialxUe"
-			],
-			[
-				"getNumeroEstudiantePrima",
-				"getNumeroEstudiantesPrimariaEibxUe"
-			],
-			[
-				"getNumeroEstudianteInicia",
-				"getNumeroEstudiantesInicialEibxUe"
-			],
-			[
-				"getNumeroI",
-				"getNumeroIeInicialEibxUe"
-			],
-			[
-				"getNumeroIeP",
-				"getNumeroIexUePrimaria"
-			],
-			[
-				"getNumeroDocentex",
-				"getNumeroDocentesxUe"
-			],
-			[
-				"getNumero",
-				"getNumeroIexUe"
-			],
-			[
-				"getNumeroDocent",
-				"getNumeroDocentesSecundariaxUe"
-			],
-			[
-				"getNumeroDocen",
-				"getNumeroDocentesPrimariaxUe"
-			],
-			[
-				"getMonto",
-				"getMontoActividad"
-			],
-			[
-				"mon",
-				"monto_dos"
-			],
-			[
-				"ra",
-				"ratio_costeo_actividad"
-			],
-			[
-				"rati",
-				"Ratio"
-			],
-			[
-				"suma",
-				"suma_local"
-			],
-			[
-				"unidad",
-				"unidad_medida"
-			],
-			[
-				"class",
-				"class_unidad"
-			],
-			[
-				"codi",
-				"codigo_presupuestal"
-			],
-			[
-				"ac",
-				"actividad_id"
-			],
-			[
-				"producto",
+				"produc",
 				"producto_id"
-			],
-			[
-				"border-c",
-				"border-color"
-			],
-			[
-				"ca",
-				"cantidad"
-			],
-			[
-				"getNumeroAula",
-				"getNumeroAulasInicialxUe"
-			],
-			[
-				"hea",
-				"header	Tag"
-			],
-			[
-				"getNumeroLocalPrimaria",
-				"getNumeroLocalPrimariaxDre"
-			],
-			[
-				"getNumeroCra",
-				"getNumeroCraxDre"
-			],
-			[
-				"mont",
-				"monto_final"
-			],
-			[
-				"monto",
-				"monto_dos"
-			],
-			[
-				"getNumeroUgel",
-				"getNumeroUgelxDre"
-			],
-			[
-				"getNumeroP",
-				"getNumeroPronoeixDre"
-			],
-			[
-				"getNume",
-				"getNumeroEstudiantesxDre"
-			],
-			[
-				"uge",
-				"ugel_id"
-			],
-			[
-				"ue",
-				"ue_id"
-			],
-			[
-				"unida_ejecutora",
-				"unidad_ejecutora_id"
-			],
-			[
-				"new",
-				"new_costeo_ratio"
-			],
-			[
-				"sub",
-				"subtotal"
-			],
-			[
-				"DNI",
-				"dni_docente"
-			],
-			[
-				"condi",
-				"condicion_docente"
-			],
-			[
-				"CONDICIO",
-				"condicion_docente"
-			],
-			[
-				"arra",
-				"array_grado"
-			],
-			[
-				"fec",
-				"fetchAll"
-			],
-			[
-				"exe",
-				"executeQuery"
-			],
-			[
-				"TD",
-				"td	Tag"
-			],
-			[
-				"el",
-				"codigo_elemento"
-			],
-			[
-				"elem",
-				"elemeto_kit"
-			],
-			[
-				"prod",
-				"producto_id"
-			],
-			[
-				"chec",
-				"checkbox"
-			],
-			[
-				"pro",
-				"prop"
-			],
-			[
-				"pre",
-				"preventDefault"
-			],
-			[
-				"centro",
-				"centro_poblado_select"
-			],
-			[
-				"crea",
-				"createQuery"
-			],
-			[
-				"dis",
-				"disabled"
 			],
 			[
 				"set",
 				"setParameter"
 			],
 			[
-				"distri",
-				"distrito_select"
+				"re",
+				"request"
 			],
 			[
-				"op",
-				"option	Tag"
-			],
-			[
-				"ugel",
-				"ugel"
-			],
-			[
-				"getD",
-				"getDistritoPorUgel"
+				"req",
+				"request  (variable)"
 			],
 			[
 				"eib",
 				"eib_select"
 			],
 			[
-				"area",
+				"are",
 				"area_select"
 			],
 			[
-				"moda",
-				"modalidad_select"
-			],
-			[
-				"centr",
-				"centro_poblado_select"
-			],
-			[
 				"ie",
-				"ie_caracteristica"
+				"ie_modadalidad"
 			],
 			[
-				"hid",
-				"hidden_recordar_busqueda"
-			],
-			[
-				"cara",
-				"caracteristica_select"
-			],
-			[
-				"va",
-				"val"
-			],
-			[
-				"distr",
+				"distri",
 				"distrito_select"
 			],
 			[
-				"in",
-				"input	Tag"
+				"ie_ca",
+				"ie_caracteristica"
 			],
 			[
-				"In",
-				"IntiRegistroBundle"
+				"ugel",
+				"ugel_filtro_id"
 			],
 			[
-				"font",
-				"font-size"
+				"dis",
+				"distrito_id"
 			],
 			[
-				"val",
-				"value"
+				"ni",
+				"nivel_id"
 			],
 			[
-				"en",
-				"entity_meta1"
+				"uge",
+				"ugel_id"
 			],
 			[
-				"rura",
-				"rural"
+				"nivel",
+				"nivel_id"
 			],
 			[
-				"urbana",
-				"urbana_id"
+				"cp",
+				"cp_id"
 			],
 			[
-				"els",
-				"elseif"
+				"di",
+				"distrito_select"
 			],
 			[
-				"for",
-				"foreach	foreach …"
+				"dre",
+				"dre_id"
 			],
 			[
-				"str_re",
-				"str_replace"
+				"sele",
+				"ugel_select"
 			],
 			[
-				"ob",
-				"obj_dre"
+				"distr",
+				"distrito_id"
 			],
 			[
-				"se",
-				"search_dre"
-			],
-			[
-				"Int",
-				"IntiRegistroBundle"
-			],
-			[
-				"con",
-				"conn"
+				"dql",
+				"dql_ie"
 			]
 		]
 	},
@@ -523,19 +115,19 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"instal",
+				"install ",
 				"Package Control: Install Package"
 			],
 			[
@@ -543,23 +135,23 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"remo",
-				"Package Control: Remove Package"
-			],
-			[
-				"insta package ",
+				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"sft",
-				"Preferences: Settings - Default"
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"ftp",
+				"FTPSync: Download current file"
 			]
 		],
-		"width": 528.0
+		"width": 386.0
 	},
 	"console":
 	{
-		"height": 188.0
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -572,138 +164,65 @@
 	},
 	"file_history":
 	[
-		"/C/wamp/www/silex/templates/publicidad.html.twig",
-		"/C/wamp/www/silex/templates/index.html",
-		"/C/wamp/www/silex/config/prod.php",
-		"/C/wamp/www/silex/src/app.php",
-		"/C/wamp/www/silex/src/controllers.php",
-		"/C/wamp/www/silex/templates/layout.html",
-		"/C/wamp/www/silex/web/index.php",
-		"/C/wamp/www/silex/config/dev.php",
-		"/C/wamp/www/ejemplo_silex/templates/index.html",
-		"/C/wamp/www/silex/README.md",
-		"/C/wamp/www/silex/.gitignore",
-		"/C/Users/rchecnes/.ssh/id_rsa.pub",
+		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Resources/views/ClasificadorGasto/clasificadorGastoRegional.html.twig",
+		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Twig/CosteoReporteExtension.php",
 		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Resources/views/ClasificadorGasto/clasificadorGastoxActividad.html.twig",
 		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Twig/CosteoReporteActividadExtension.php",
-		"/C/wamp/www/sigma2/src/Inti/RegistroBundle/Entity/Ugel.php",
-		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Resources/views/ClasificadorGasto/clasificadorGastoRegional.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Resources/views/Ie/mostrarListaIe.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Controller/IeController.php",
-		"/C/Users/rchecnes/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Controller/ClasificadorGastoController.php",
-		"/C/wamp/www/sigma2/src/Inti/RegistroBundle/Entity/UnidadEjecutora.php",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Entity/RptAcoVisitaDocenteCantidad.php",
-		"/C/wamp/www/sigma2/src/Inti/MatReporteBundle/Controller/DistribucionTiempoPromedioController.php",
-		"/C/wamp/www/sigma2/src/Inti/MatReporteBundle/Controller/DistribucionMaterialUgelaIEController.php",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Form/SeleccionIeType.php",
+		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Resources/config/routing/clasificadorgasto.yml",
+		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Resources/views/ClasificadorGasto/index.html.twig",
+		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Controller/FormadorController.php",
+		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Controller/CosProductoDetalleController.php",
+		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Resources/views/CosProductoDetalle/producto.html.twig",
+		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Resources/config/routing/cosproducto.yml",
+		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Twig/CosteoExtension.php",
+		"/C/wamp/www/sigma2/src/Inti/RegistroBundle/Util/Util.php",
+		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Twig/CosteoExtension.php",
+		"/C/wamp/www/sigma2/src/Inti/RegistroBundle/Twig/TwigExtension.php",
+		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Entity/CosProductoDetalle.php",
+		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Resources/config/routing.yml",
+		"/C/wamp/www/sigma2/app/config/routing.yml",
+		"/C/wamp/www/sigma2/src/Inti/EamRegistroBundle/Resources/views/EamEquipo/index.html.twig",
+		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Controller/CosMetaController.php",
+		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Resources/views/CosMeta/graficaCosMeta.html.twig",
+		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Resources/views/CosMeta/index.html.twig",
+		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Entity/CosClasificador.php",
+		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Entity/CosElemento.php",
+		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Entity/CosActividad.php~",
+		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Entity/CosMetaNacional.php",
+		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Entity/CosMetaXDre.php",
 		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Controller/CosParametroController.php",
 		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Resources/views/CosParametro/seleccionIe.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Resources/views/CosMeta/graficaCosMeta.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Resources/config/routing/cosmeta.yml",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Resources/views/CosMeta/index.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Controller/CosMetaController.php",
-		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Twig/CosteoReporteExtension.php",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Controller/CosProductoDetalleController.php",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Resources/views/CosProductoDetalle/detalleKitElementos.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Twig/CosteoExtension.php",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Controller/ConsolidadoVisitaDocenteController.php",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Controller/RegistrarVisitaMicrotallerTallerDocenteController.php",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Controller/PanelController.php",
-		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Resources/config/routing/clasificadorgasto.yml",
-		"/C/wamp/www/sigma2/web/css/styles.css",
-		"/C/wamp/www/sigma2/app/config/config.yml",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Twig/CosteoReporteExtensionActividad.php",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Entity/CosReporteActividad.php",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Entity/CosKitXReporteActividad.php",
-		"/C/wamp/www/sigma2/src/Inti/RegistroBundle/Entity/AcoMeta.php",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Entity/CosReporteUnidadMedida.php",
-		"/C/wamp/www/sigma2/src/Inti/RegistroBundle/Entity/Acompanante.php",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Entity/CosMaterial.php",
-		"/C/wamp/www/sigma2/src/Inti/EamRegistroBundle/Resources/config/routing/eamequipo.yml",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Resources/config/routing/registravisitadocente.yml",
-		"/C/wamp/www/sigma2/src/Inti/EamRegistroBundle/Controller/EamEquipoController.php",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Resources/views/Docente2/mostrarReporteDocente2.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Controller/Docente2Controller.php",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Resources/config/routing/docente2.yml",
-		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Resources/views/ClasificadorGasto/index.html.twig",
-		"/D/Users/rchecnes/Desktop/funciones.php",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Resources/config/routing.yml",
-		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Resources/config/routing.yml",
-		"/C/wamp/www/sigma2/src/Inti/MatReporteBundle/Controller/UgelDistribucionMaterialaIeDetalleController.php",
-		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Twig/CosteoExtension.php",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Resources/views/VisitaDocente/RegistrarVisitaDocente.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Resources/config/routing/cosparametro.yml",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Resources/views/CosParametro/listarPeticionSeleccioIe.html.twig",
 		"/C/wamp/www/sigma2/src/Inti/RegistroBundle/Entity/Ie.php",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Controller/CerController.php",
-		"/C/wamp/www/sigma2/src/Inti/EamRegistroBundle/Controller/EamSupervisorController.php",
-		"/C/wamp/www/sigma2/src/Inti/EamRegistroBundle/Resources/views/EamSupervisor/index.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Controller/EstudianteController.php",
-		"/C/wamp/www/sigma2/src/Inti/RegistroBundle/Controller/DocenteController.php",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Form/IeFiltroType.php",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Resources/views/Panel/graficaVisitaCantidad.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Resources/views/Panel/graficaTallerCantidad.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Resources/views/Panel/graficaMicrotallerCantidad.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Resources/views/Panel/graficaDocentesAcompanandos.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Resources/views/Panel/graficaMicrotallerHoras.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Resources/views/Panel/graficaVisitaHoras.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Resources/views/Panel/graficaTallerHoras.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Resources/views/Panel/graficaAcompanantes.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Form/SeleccionIeFiltro.php",
-		"/D/Users/rchecnes/Desktop/rrrrrrrrrr.php",
-		"/D/Users/rchecnes/Desktop/ggggggg.php",
-		"/C/wamp/www/sigma2/src/Inti/RegistroBundle/Entity/CentroPoblado.php",
-		"/C/wamp/www/sigma2/src/Inti/MatReporteBundle/Resources/views/EnvioMaterialUgel/FiltroEnvioMaterialUgelXMes.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/MatReporteBundle/Resources/views/EnvioMaterialUgel/EnvioMaterialUgelXMes.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Entity/CosMetaXDre.php",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Resources/views/Panel/index.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/EamRegistroBundle/Controller/EamEquipoMiembroController.php",
-		"/C/wamp/www/sigma2/src/Inti/MatReporteBundle/Resources/views/UgelDistribucionMaterialaIeDetalle/index.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/MatReporteBundle/Form/UgelDistribucionMaterialaIeDetalleType.php",
-		"/C/wamp/www/sigma2/src/Inti/MatReporteBundle/Resources/config/routing/ugeldistribucionmaterialaiedetalle.yml",
-		"/C/wamp/www/sigma2/src/Inti/EamRegistroBundle/Resources/views/EamEquipo/new.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/RegistroBundle/Entity/Persona.php",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Resources/config/routing.yml",
-		"/C/wamp/www/sigma2/src/Inti/EamRegistroBundle/Controller/EamActividadesController.php",
-		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Resources/views/CosMeta/index.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Resources/config/routing/cosmeta.yml",
-		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Controller/CosMetaController.php",
-		"/C/wamp/www/sigma2/app/AppKernel.php",
-		"/C/wamp/www/sigma2/app/config/routing.yml",
-		"/C/wamp/www/sigma2/src/Inti/RegistroBundle/Entity/IeXEstudiante.php",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Entity/CosMetaNacional.php",
-		"/C/wamp/www/sigma2/src/Inti/CosRegistroBundle/Entity/CosPresupuesto.php",
-		"/C/wamp/www/sigma2/src/Inti/MatRegistroBundle/Entity/Material.php",
-		"/C/wamp/www/sigma2/src/Inti/MatRegistroBundle/Entity/MatUgelDistribucionMaterialDetalle.php",
-		"/C/wamp/www/sigma2/src/Inti/MatRegistroBundle/Entity/AreaCurricular.php",
-		"/C/wamp/www/sigma2/src/Inti/RegistroBundle/Entity/Dre.php",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Controller/ConsolidadoDocenteController.php",
-		"/C/wamp/www/sigma2/src/Inti/RegistroBundle/Controller/EstudianteController.php",
-		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Resources/config/routing/cer.yml",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Controller/AcompanamientoIndividualController.php",
-		"/C/wamp/www/sigma2/src/Inti/RegistroBundle/Util/Util.php",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Controller/EamResumenController.php",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Resources/views/EamResumen/Cuadro.html.twig",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Resources/config/routing/acompanamientoindividual.yml",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Resources/views/AcompanamientoIndividual/index.html.twig",
-		"/C/Users/rchecnes/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
-		"/C/wamp/www/sigma2/src/Inti/MatRegistroBundle/Controller/MatUgelDistribucionMaterialController.php",
-		"/C/Users/rchecnes/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Controller/CapDocenteCajaHController.php",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Controller/GrupoHEstudianteController.php",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Controller/GrupoAutocuidadoDocenteController.php",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Controller/ReplicaDiplomadoController.php",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Form/AcompanamientoIndividualType.php",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Resources/config/routing/eiplanconvivencia.yml",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Resources/config/routing.yml",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Controller/AcompanamientoIndividualController.pph",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Form/GrupoAutocuidadoDocenteType.php",
-		"/C/wamp/www/sigma2/src/Inti/EamReporteBundle/Resources/config/routing/replicadiplomado.yml"
+		"/C/wamp/www/sigma2/src/Inti/ReporteBundle/Controller/IeController.php",
+		"/C/Users/admin/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/admin/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/wamp/www/Cupon/src/Cupon/OfertaBundle/Controller/DefaultController.php",
+		"/C/wamp/www/Cupon/src/Cupon/CiudadBundle/Controller/DefaultController.php",
+		"/C/Users/admin/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/wamp/www/Cupon/web/app_dev.php",
+		"/C/wamp/www/Cupon/web/app.php",
+		"/C/wamp/www/Cupon/app/config/config.yml",
+		"/C/Users/admin/Desktop/como_implementar el_autocompletado.php",
+		"/C/wamp/www/album/Conexion.php",
+		"/C/wamp/www/album/Config.php",
+		"/C/Users/admin/Dropbox/erp508/_vista/Adm_CotizacionCrea.php",
+		"/C/Users/admin/Dropbox/erp508/_controlador/Adm_CotizacionC.php",
+		"/C/Users/admin/Dropbox/erp508/Controles/Autocompletado/Autocompletar.php",
+		"/C/wamp/www/Cupon/src/Cupon/OfertaBundle/Resources/views/Default/portada.html.twig",
+		"/C/wamp/www/Cupon/src/Cupon/OfertaBundle/Resources/config/routing.yml",
+		"/C/wamp/www/Cupon/src/Cupon/OfertaBundle/Entity/Oferta.php",
+		"/C/Users/admin/Dropbox/erp508/Controles/Autocompletado/AutocompletadoQuery.php",
+		"/C/wamp/www/Cupon/app/config/routing.yml",
+		"/C/wamp/www/Cupon/composer.phar",
+		"/C/wamp/www/sigma2/src/Inti/EamRegistroBundle/Controller/EamAsignarIeaEquipoController.php",
+		"/C/wamp/www/sigma2/sftp-config.json",
+		"/C/wamp/www/sigma2/src/Inti/EamRegistroBundle/Resources/views/EamAsignarIeaEquipo/filtroAsignacionIeaEquipo.html.twig",
+		"/C/Users/admin/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/ftp"
 	],
 	"find":
 	{
-		"height": 49.0
+		"height": 52.0
 	},
 	"find_in_files":
 	{
@@ -717,134 +236,55 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"sumaTotalDetalleProductoTres",
-			"productotre",
 			"obtenerProductosCosteadosActividad",
-			"productotre",
-			"totales_ratio_costeo",
-			"obtenerCalculodeTotales",
-			"sumaTotalDetalle",
-			"obtenerActividad",
-			"existeActividaEnProducto",
-			"obtenerListaActividad",
-			"obtenerProductosCosteadosActividad",
-			"sumaTotalDetalleProductoTres",
-			"obtenerProductosCosteadosActividad",
-			"sumaTotalDetalleProductoTres",
-			"sumaTotalDetalleProductoDos",
-			"obtenerProductosCosteadosActividad",
-			"sumaTotalDetalleProductoTres",
-			"obtenerProductosCosteadosActividad",
-			"mesage_descarga_excel",
-			"condicionBusqueda",
-			"campo_busqueda_ano",
-			"condicionBusqueda",
-			"TraeJoins",
-			"getOrederElememtoKit",
+			"cos_reporte_actividad_id",
 			"obtenerKitElementoXProductoActividad",
-			"getOrederElememtoKit",
-			"obtenerKitElementoDetalleNewActividad",
-			"obtenerKitElementoXProductoActividad",
-			"getOrederElememtoKit",
-			"obtenerKitElementoDetalleNewActividad",
-			"getOrederElememtoKit",
 			"obtenerProductosCosteadosActividad",
-			"obtenerRatioxElementoActividad",
-			"sumaTotalDetalleProductoTres",
 			"sumaTotalSegundoNivelActividad",
-			"sumaTotalDetalleProductoTres",
-			"obtenerRatioxUnidadCosteoandUnidadEgecutoraActividad",
-			"sumaTotalDetalleProductoTres",
-			"getNumeroAcompanantesxUe",
-			"getNumeroDocentesxDre",
-			"getNumeroDocentesxUe",
-			"obtenerRatioxElementoActividad",
-			"sumaTotalDetalleProductoTres",
-			"obtenerProductosCosteadosActividad",
-			"sumaTotalDetalleProductoTres",
-			"ie_acompanado",
-			"obtenerRatioxElementoActividad",
-			"sumaTotalDetalleProductoTres",
-			"getNumeroIeSecundariaxUe",
-			"getNumeroIePrimariaEibxUe",
-			"getNumeroIePrimariaxUe",
-			"getNumeroIeInicialEibxUe",
-			"getNumeroIePrimariaxUe",
-			"getNumeroIeSecundariaxUe",
-			"getNumeroIePrimariaEibxUe",
-			"getNumeroIePrimariaxUe",
-			"getNumeroIeInicialEibxUe",
-			"getNumeroIeInicialxUe",
-			"getNumeroIeSecundariaxUe",
-			"getNumeroSecundariaIexUe",
-			"getNumeroIeSecundariaxUe",
-			"getNumeroSecundariaIexUe",
-			"getNumeroIePrimariaxUe",
-			"getNumeroPrimariaIexUe",
-			"getNumeroSecundariaIexUe",
-			"getNumeroIePrimariaEibxUe",
-			"getNumeroPrimariaIexUe",
-			"getNumeroIeInicialEibxUe",
-			"getNumeroIeInicialxUe",
-			"getNumeroIexDre",
-			"getNumeroIexUe",
-			"getNumeroIeInicialxUe",
-			"getSumaIexUe",
-			"getNumeroIeInicialxUe",
-			"getSumaIeTipoxUe",
-			"getNumeroIeInicialxUe",
-			"obtenerCalculodeTotales",
-			"obtenerReatioxActividad",
-			"obtenerCalculodeTotales",
-			"obtenerReatioxActividad",
-			"actividad",
-			"obtenerProductosCosteadosActividad",
-			"sumaTotalDetalleProductoTres",
-			"obtenerRatioxElementoActividad",
-			"sumaTotalDetalleProductoTres",
+			"ObtenerListaKitXElemento",
+			"sumaTotalPrimerNivelActividad",
+			"getExisteCosteoClasificadorActividad",
+			"sumaTotalSegundoNivel",
+			"sumaTotalDetalleProductoUno",
 			"sumaTotalDetalle",
-			"obtenerRatioxElementoActividad",
-			"sumaTotalDetalleProductoTres",
+			"obtenerKitElementoDetalleNewActividad",
+			"obtenerKitElementoXProductoActividad",
+			"getExisteCosteoClasificadorActividad",
+			"getExisteCosteoClasificador",
+			"obtenerCosteoClasificadorPrimerNivelActividad",
+			"obtenerCosteoClasificadorPrimerNivel",
 			"obtenerProductosCosteadosActividad",
-			"obtenerRatioxElementoActividad",
-			"sumaTotalDetalleProductoTres",
-			"obtenerRatioxElementoActividad",
+			"sumaTotalDetalleProductoCuatro",
+			"sumaTotalXActividad",
+			"sumaTotalQuintoNivelNewActividad",
+			"sumaTotalDetalleProductoCuatro",
 			"obtenerProductosCosteadosActividad",
-			"obtenerRatioxElementoActividad",
-			"sumaTotalDetalleProductoDos",
-			"sumaTotalDetalle",
-			"order by",
-			"obtenerRatioxUnidadCosteoandUnidadEgecutoraActividad",
-			"sum(if",
-			"sum",
-			"sumaTotalDetalleProductoDos",
-			"sumaTotalDetalleProductoTres",
-			"getNumeroDocentesInicialxUe",
-			"getSumaIeTipoxUe",
-			"obtenerNumeroEstudiantesxUeActividad",
-			"obtenerNumeroEstudiantesxDreActividad",
-			"obtenerNumeroDocentesxDreActividad",
-			"getNumeroAulasPrimariaxUe",
-			"getNumeroAulasInicialxDre",
-			"obtenerNumeroAulasxDreActividad",
-			"obtenerNumeroIexDreActividad",
-			"obtenerNumeroEstudiantesxUeActividad",
-			"obtenerNumeroDocentesxUeActividad",
-			"getNumeroAulasInicialxDre",
-			"getNumeroAulasPrimariaxUe",
-			"getNumeroAulasInicialxUe",
-			"obtenerNumeroAulasxUeActividad",
-			"obtenerNumeroIexUeActividad",
-			"kit_difusion",
-			"obtenerNumeroEstudiantesxUeActividad",
-			"getNumeroEstudiantesxDre",
-			"getNumeroEstudiantesxUe",
-			"getNumeroEstudiantesSecundariaxUe",
-			"getNumeroEstudiantesPrimariaEibxUe",
-			"getNumeroEstudiantesPrimariaxUe",
-			"getNumeroEstudiantesInicialEibxUe",
-			"getNumeroEstudiantesInicialxUe",
-			"obtenerNumeroEstudiantesxUeActividad"
+			"sumaTotalQuintoNivelNewActividad",
+			"sumaTotalCuartoNivelActividad",
+			"sumaTotalQuintoNivelNewActividad",
+			"getExisteCosteoClasificador",
+			"obtetenerKitElementoXProducto",
+			"getKitElementoXProducto",
+			"costeo",
+			"getKitElementoXProducto",
+			"obtenerProtocoloMetaXDre",
+			"getKitElementoXProducto",
+			"detalleKitElementos",
+			"cosproductodetalle_detalle_kit_elementos",
+			"obtenerKitXActividad",
+			"obtenerActividadXProducto",
+			"producto",
+			"getDataGraficaMetaXDre",
+			"getListaMetaAnoXDre",
+			"getListaMetaAnoNacional",
+			"getListaMetaAnoXDre",
+			"grabarSeleccionIeAction",
+			"getFilterSeleccionIe",
+			"getQuerySeleccionIe",
+			"ie_area",
+			"getQuerySeleccionIe",
+			"selecc",
+			"getListaIe"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -873,7 +313,7 @@
 	},
 	"input":
 	{
-		"height": 40.0
+		"height": 39.0
 	},
 	"layout":
 	{
@@ -900,11 +340,11 @@
 	"menu_visible": true,
 	"output.sftp":
 	{
-		"height": 104.0
+		"height": 145.0
 	},
 	"replace":
 	{
-		"height": 64.0
+		"height": 0.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -913,516 +353,32 @@
 		"selected_items":
 		[
 			[
-				"ugel",
-				"src/Inti/RegistroBundle/Entity/Ugel.php"
-			],
-			[
-				"rpt",
-				"src/Inti/ReporteBundle/Entity/RptAcoVisitaDocenteCantidad.php"
-			],
-			[
-				"unidad",
-				"src/Inti/RegistroBundle/Entity/UnidadEjecutora.php"
-			],
-			[
-				"distribucionmate",
-				"src/Inti/MatReporteBundle/Controller/DistribucionMaterialUgelaIEController.php"
-			],
-			[
-				"distribuciontiempopromediocontroller",
-				"src/Inti/MatReporteBundle/Controller/DistribucionTiempoPromedioController.php"
-			],
-			[
-				"detallekitelementos.html.twig",
-				"src/Inti/CosRegistroBundle/Resources/views/CosProductoDetalle/detalleKitElementos.html.twig"
+				"producto.html.twig",
+				"src/Inti/CosRegistroBundle/Resources/views/CosProductoDetalle/producto.html.twig"
 			],
 			[
 				"cosproductodetallecontroller",
 				"src/Inti/CosRegistroBundle/Controller/CosProductoDetalleController.php"
 			],
 			[
-				"registrar",
-				"src/Inti/ReporteBundle/Controller/RegistrarVisitaMicrotallerTallerDocenteController.php"
+				"cosproductodetalle",
+				"src/Inti/CosRegistroBundle/Entity/CosProductoDetalle.php"
 			],
 			[
-				"consolidadvisi",
-				"src/Inti/ReporteBundle/Controller/ConsolidadoVisitaDocenteController.php"
-			],
-			[
-				"panel",
-				"src/Inti/ReporteBundle/Controller/PanelController.php"
-			],
-			[
-				"consolidadovisi",
-				"src/Inti/ReporteBundle/Controller/ConsolidadoVisitaDocenteController.php"
-			],
-			[
-				"cosmetacontroller",
-				"src/Inti/CosRegistroBundle/Controller/CosMetaController.php"
-			],
-			[
-				"iecontroller",
-				"src/Inti/ReporteBundle/Controller/IeController.php"
-			],
-			[
-				"consolidadovisitadocentecontroller",
-				"src/Inti/ReporteBundle/Controller/ConsolidadoVisitaDocenteController.php"
-			],
-			[
-				"docente2controller",
-				"src/Inti/ReporteBundle/Controller/Docente2Controller.php"
-			],
-			[
-				"unidadeje",
-				"src/Inti/RegistroBundle/Entity/UnidadEjecutora.php"
-			],
-			[
-				"registra",
-				"src/Inti/ReporteBundle/Controller/RegistrarVisitaMicrotallerTallerDocenteController.php"
-			],
-			[
-				"estudiante",
-				"src/Inti/ReporteBundle/Controller/EstudianteController.php"
-			],
-			[
-				"registrarvi",
-				"src/Inti/ReporteBundle/Controller/RegistrarVisitaMicrotallerTallerDocenteController.php"
-			],
-			[
-				"docentecontro",
-				"src/Inti/RegistroBundle/Controller/DocenteController.php"
+				"coselemen",
+				"src/Inti/CosRegistroBundle/Entity/CosElemento.php"
 			],
 			[
 				"ie",
 				"src/Inti/RegistroBundle/Entity/Ie.php"
 			],
 			[
-				"centropoblado",
-				"src/Inti/RegistroBundle/Entity/CentroPoblado.php"
-			],
-			[
-				"cosparametrocontroller",
-				"src/Inti/CosRegistroBundle/Controller/CosParametroController.php"
-			],
-			[
-				"cosmetaxdre",
-				"src/Inti/CosRegistroBundle/Entity/CosMetaXDre.php"
-			],
-			[
-				"persona",
-				"src/Inti/RegistroBundle/Entity/Persona.php"
-			],
-			[
-				"ugeldistribucionmaterialaiedetallecontroller",
-				"src/Inti/MatReporteBundle/Controller/UgelDistribucionMaterialaIeDetalleController.php"
-			],
-			[
-				"cosme",
-				"src/Inti/CosRegistroBundle/Entity/CosMetaXDre.php"
-			],
-			[
-				"cos",
-				"src/Inti/CosRegistroBundle/Entity/CosPresupuesto.php"
-			],
-			[
-				"mate",
-				"src/Inti/MatRegistroBundle/Entity/Material.php"
-			],
-			[
-				"matdistribuci",
-				"src/Inti/MatRegistroBundle/Entity/MatUgelDistribucionMaterialDetalle.php"
-			],
-			[
-				"areacu",
-				"src/Inti/MatRegistroBundle/Entity/AreaCurricular.php"
-			],
-			[
-				"iexe",
-				"src/Inti/RegistroBundle/Entity/IeXEstudiante.php"
-			],
-			[
-				"dre",
-				"src/Inti/RegistroBundle/Entity/Dre.php"
-			],
-			[
-				"docente",
-				"src/Inti/ReporteBundle/Controller/Docente2Controller.php"
-			],
-			[
-				"iecontrolle",
+				"iecontrollert",
 				"src/Inti/ReporteBundle/Controller/IeController.php"
 			],
 			[
-				"consolidadodoce",
-				"src/Inti/ReporteBundle/Controller/ConsolidadoDocenteController.php"
-			],
-			[
-				"estudiantecontroller",
-				"src/Inti/RegistroBundle/Controller/EstudianteController.php"
-			],
-			[
-				"eamresumencontroller",
-				"src/Inti/EamReporteBundle/Controller/EamResumenController.php"
-			],
-			[
-				"matugeldistribucionmaterialcontroller",
-				"src/Inti/MatRegistroBundle/Controller/MatUgelDistribucionMaterialController.php"
-			],
-			[
-				"ugeldistribucion",
-				"src/Inti/MatReporteBundle/Controller/UgelDistribucionMaterialaIeDetalleController.php"
-			],
-			[
-				"acompanamientoindividualcontroller",
-				"src/Inti/EamReporteBundle/Controller/AcompanamientoIndividualController.php"
-			],
-			[
-				"replicadiplomadocontroller",
-				"src/Inti/EamReporteBundle/Controller/ReplicaDiplomadoController.php"
-			],
-			[
-				"grupoautocuidadodocentecontroller",
-				"src/Inti/EamReporteBundle/Controller/GrupoAutocuidadoDocenteController.php"
-			],
-			[
-				"grupohestudiantecontroller",
-				"src/Inti/EamReporteBundle/Controller/GrupoHEstudianteController.php"
-			],
-			[
-				"capdocentecajahcontroller",
-				"src/Inti/EamReporteBundle/Controller/CapDocenteCajaHController.php"
-			],
-			[
-				"eamatenciondecasocontroller",
-				"src/Inti/EamRegistroBundle/Controller/EamAtencionDeCasoController.php"
-			],
-			[
-				"pane",
-				"src/Inti/ReporteBundle/Controller/PanelController.php"
-			],
-			[
-				"filtroenviomaterialugelxregion.html.twig",
-				"src/Inti/MatReporteBundle/Resources/views/EnvioMaterialUgel/FiltroEnvioMaterialUgelXRegion.html.twig"
-			],
-			[
-				"filtrodistribucionmaterialxned.html.twig",
-				"src/Inti/MatReporteBundle/Resources/views/DistribucionMaterialUgel/FiltroDistribucionMaterialXNed.html.twig"
-			],
-			[
-				"eamsuper",
-				"src/Inti/EamRegistroBundle/Entity/EamSupervisor.php"
-			],
-			[
-				"muestracuadro.html.twig",
-				"src/Inti/EamReporteBundle/Resources/views/ActividadEquipo/muestraCuadro.html.twig"
-			],
-			[
-				"eamequipomiembroplanactividad",
-				"src/Inti/EamRegistroBundle/Entity/EamEquipoMiembroPlanActividad.php"
-			],
-			[
-				"rptacovis",
-				"src/Inti/ReporteBundle/Entity/RptAcoVisitaDocenteCantidad.php"
-			],
-			[
-				"cuadrod",
-				"src/Inti/MatReporteBundle/Controller/CuadroDistribucionMineduController.php"
-			],
-			[
-				"ugeldistribucionmaterialaiefiltrotype",
-				"src/Inti/MatReporteBundle/Form/UgelDistribucionMaterialaIeFiltroType.php"
-			],
-			[
-				"matminedudistribucionmaterialcontroller",
-				"src/Inti/MatRegistroBundle/Controller/MatMineduDistribucionMaterialController.php"
-			],
-			[
-				"indexmaterial.html.twig",
-				"src/Inti/MatRegistroBundle/Resources/views/MatUgelDistribucionMaterial/indexMaterial.html.twig"
-			],
-			[
-				"materialmalestadoinfougelcontroller",
-				"src/Inti/MatReporteBundle/Controller/MaterialMalEstadoInfoUgelController.php"
-			],
-			[
-				"distribucionmaterialugelaiecontroller",
-				"src/Inti/MatReporteBundle/Controller/DistribucionMaterialUgelaIEController.php"
-			],
-			[
-				"recepcionmaterialugelcontroller",
-				"src/Inti/MatReporteBundle/Controller/RecepcionMaterialUgelController.php"
-			],
-			[
-				"consolidadoie",
-				"src/Inti/ReporteBundle/Controller/ConsolidadoIeController.php"
-			],
-			[
-				"ugeldistribucionmaterialaiecontroller",
-				"src/Inti/MatReporteBundle/Controller/UgelDistribucionMaterialaIEController.php"
-			],
-			[
-				"cuadrodistribucionmineducontroller",
-				"src/Inti/MatReporteBundle/Controller/CuadroDistribucionMineduController.php"
-			],
-			[
-				"filtromaterialmalestadoxned.html.twig",
-				"src/Inti/MatReporteBundle/Resources/views/MaterialMalEstadoInfoUgel/FiltroMaterialMaLEstadoXNed.html.twig"
-			],
-			[
-				"filtromaterialmalestado.html.twig",
-				"src/Inti/MatReporteBundle/Resources/views/MaterialMalEstadoInfoUgel/FiltroMaterialMaLEstado.html.twig"
-			],
-			[
-				"materialmalestadoinfougeltype",
-				"src/Inti/MatReporteBundle/Form/MaterialMalEstadoInfoUgelType.php"
-			],
-			[
-				"filtromaterialmalestadoxregion.html.twig",
-				"src/Inti/MatReporteBundle/Resources/views/MaterialMalEstadoInfoUgel/FiltroMaterialMaLEstadoXRegion.html.twig"
-			],
-			[
-				"filtrodistribucionmaterialxregion.html.twig",
-				"src/Inti/MatReporteBundle/Resources/views/DistribucionMaterialUgel/FiltroDistribucionMaterialXRegion.html.twig"
-			],
-			[
-				"filtrodistribucionmaterialxmes.html.twig",
-				"src/Inti/MatReporteBundle/Resources/views/DistribucionMaterialUgel/FiltroDistribucionMaterialXMes.html.twig"
-			],
-			[
-				"distribucionmaterialugelaietype",
-				"src/Inti/MatReporteBundle/Form/DistribucionMaterialUgelaIEType.php"
-			],
-			[
-				"filtrorecepcionmatugelxned.html.twig",
-				"src/Inti/MatReporteBundle/Resources/views/RecepcionMaterialUgel/FiltroRecepcionMatUgelXNed.html.twig"
-			],
-			[
-				"filtrorecepcionmatugelxregion.html.twig",
-				"src/Inti/MatReporteBundle/Resources/views/RecepcionMaterialUgel/FiltroRecepcionMatUgelXRegion.html.twig"
-			],
-			[
-				"filtroenviomaterialugelxniveleducativo.html.twig",
-				"src/Inti/MatReporteBundle/Resources/views/EnvioMaterialUgel/FiltroEnvioMaterialUgelXNivelEducativo.html.twig"
-			],
-			[
-				"filtroenviomaterialugelxmes.html.twig",
-				"src/Inti/MatReporteBundle/Resources/views/EnvioMaterialUgel/FiltroEnvioMaterialUgelXMes.html.twig"
-			],
-			[
-				"ugelrecepcionmaterialcontroller",
-				"src/Inti/MatReporteBundle/Controller/UgelRecepcionMaterialController.php"
-			],
-			[
-				"ugeldistribucionmaterialaiedetalletype",
-				"src/Inti/MatReporteBundle/Form/UgelDistribucionMaterialaIeDetalleType.php"
-			],
-			[
-				"enviomaterialugelcontroller",
-				"src/Inti/MatReporteBundle/Controller/EnvioMaterialUgelController.php"
-			],
-			[
-				"graficamaterialmalestadoxregion.html.twig",
-				"src/Inti/MatReporteBundle/Resources/views/MaterialMalEstadoInfoUgel/GraficaMaterialMalEstadoXRegion.html.twig"
-			],
-			[
-				"filtrorecepcionmatugelxmes.html.twig",
-				"src/Inti/MatReporteBundle/Resources/views/RecepcionMaterialUgel/FiltroRecepcionMatUgelXMes.html.twig"
-			],
-			[
-				"ugelrecepcionmaterialfiltrotype",
-				"src/Inti/MatReporteBundle/Form/UgelRecepcionMaterialFiltroType.php"
-			],
-			[
-				"recepcionmaterialugeltype",
-				"src/Inti/MatReporteBundle/Form/RecepcionMaterialUgelType.php"
-			],
-			[
-				"consolidado",
-				"src/Inti/MatReporteBundle/Controller/ConsolidadoController.php"
-			],
-			[
-				"eamequipo",
-				"src/Inti/EamRegistroBundle/Controller/EamEquipoController.php"
-			],
-			[
-				"rptacofecha",
-				"src/Inti/ReporteBundle/Entity/RptAcoFechaActualizacion.php"
-			],
-			[
-				"regitravisitamicrotallertallerdocente.html.twig",
-				"src/Inti/ReporteBundle/Resources/views/VisitaDocente/RegitraVisitaMicrotallerTallerDocente.html.twig"
-			],
-			[
-				"mostrarreportedocente2.html.twig",
-				"src/Inti/ReporteBundle/Resources/views/Docente2/mostrarReporteDocente2.html.twig"
-			],
-			[
-				"ugelacompanante.html.twig",
-				"src/Inti/ReporteBundle/Resources/views/Docente2/ugelAcompanante.html.twig"
-			],
-			[
-				"docente2filtrotype",
-				"src/Inti/ReporteBundle/Form/Docente2FiltroType.php"
-			],
-			[
-				"mostrarconsolidadovisitadocente.html.twig",
-				"src/Inti/ReporteBundle/Resources/views/ConsolidadoVisitaDocente/mostrarConsolidadoVisitaDocente.html.twig"
-			],
-			[
-				"consolidaod",
-				"src/Inti/ReporteBundle/Controller/ConsolidadoDocenteController.php"
-			],
-			[
-				"graficatallerhoras.html.twig",
-				"src/Inti/ReporteBundle/Resources/views/Panel/graficaTallerHoras.html.twig"
-			],
-			[
-				"graficatallercantidad.html.twig",
-				"src/Inti/ReporteBundle/Resources/views/Panel/graficaTallerCantidad.html.twig"
-			],
-			[
-				"graficamicrotallerhoras.html.twig",
-				"src/Inti/ReporteBundle/Resources/views/Panel/graficaMicrotallerHoras.html.twig"
-			],
-			[
-				"graficamicrotallercantidad.html.twig",
-				"src/Inti/ReporteBundle/Resources/views/Panel/graficaMicrotallerCantidad.html.twig"
-			],
-			[
-				"graficavisitahoras.html.twig",
-				"src/Inti/ReporteBundle/Resources/views/Panel/graficaVisitaHoras.html.twig"
-			],
-			[
-				"graficaiesasignados.html.twig",
-				"src/Inti/ReporteBundle/Resources/views/Panel/graficaIesAsignados.html.twig"
-			],
-			[
-				"graficavisitacantidad.html.twig",
-				"src/Inti/ReporteBundle/Resources/views/Panel/graficaVisitaCantidad.html.twig"
-			],
-			[
-				"graficadocentesacompanandos.html.twig",
-				"src/Inti/ReporteBundle/Resources/views/Panel/graficaDocentesAcompanandos.html.twig"
-			],
-			[
-				"etlcontroller",
-				"src/Inti/RegistroBundle/Controller/EtlController.php"
-			],
-			[
-				"etl",
-				"src/Inti/ReporteBundle/Controller/EtlController.php"
-			],
-			[
-				"graficaacompanantes.html.twig",
-				"src/Inti/ReporteBundle/Resources/views/Panel/graficaAcompanantes.html.twig"
-			],
-			[
-				"consolidadoc",
-				"src/Inti/MatReporteBundle/Controller/ConsolidadoController.php"
-			],
-			[
-				"acompanantecontroll",
-				"src/Inti/ReporteBundle/Controller/AcompananteController.php"
-			],
-			[
-				"acompanan",
-				"src/Inti/ReporteBundle/Controller/AcompananteController.php"
-			],
-			[
-				"config",
-				"app/config/config.yml"
-			],
-			[
-				"consolidadocontroller",
-				"src/Inti/MatReporteBundle/Controller/ConsolidadoController.php"
-			],
-			[
-				"panelcon",
-				"src/Inti/ReporteBundle/Controller/PanelController.php"
-			],
-			[
-				"eamequipocontroller",
-				"src/Inti/EamRegistroBundle/Controller/EamEquipoController.php"
-			],
-			[
-				"eamcoordinadorbarrialcontroller",
-				"src/Inti/EamRegistroBundle/Controller/EamCoordinadorBarrialController.php"
-			],
-			[
-				"eamasignarieaequipocontroller",
-				"src/Inti/EamRegistroBundle/Controller/EamAsignarIeaEquipoController.php"
-			],
-			[
-				"eamiecontroller",
-				"src/Inti/EamReporteBundle/Controller/EamIeController.php"
-			],
-			[
-				"eamcoordinador",
-				"src/Inti/EamRegistroBundle/Entity/EamCoordinadorBarrial.php"
-			],
-			[
-				"eamequipomiembro",
-				"src/Inti/EamRegistroBundle/Entity/EamEquipoMiembro.php"
-			],
-			[
-				"eamequipomiembrocontroller",
-				"src/Inti/EamRegistroBundle/Controller/EamEquipoMiembroController.php"
-			],
-			[
-				"eamcoordinadorbarri",
-				"src/Inti/EamRegistroBundle/Entity/EamCoordinadorBarrial.php"
-			],
-			[
-				"eamcoordinadorbarrialeventocontroller",
-				"src/Inti/EamReporteBundle/Controller/EamCoordinadorBarrialEventoController.php"
-			],
-			[
-				"eameiactividadcontroller",
-				"src/Inti/EamReporteBundle/Controller/EamEiActividadController.php"
-			],
-			[
-				"cuadrodistribu",
-				"src/Inti/MatReporteBundle/Controller/CuadroDistribucionMineduController.php"
-			],
-			[
-				"material",
-				"src/Inti/MatRegistroBundle/Entity/Material.php"
-			],
-			[
-				"avancexdocente",
-				"src/Inti/ReporteBundle/Controller/AvanceXDocenteController.php"
-			],
-			[
-				"twig",
-				"src/Inti/RegistroBundle/Twig/TwigExtension.php"
-			],
-			[
-				"eamcoordinadorbarrial",
-				"src/Inti/EamRegistroBundle/Controller/EamCoordinadorBarrialController.php"
-			],
-			[
-				"twigex",
-				"src/Inti/RegistroBundle/Twig/TwigExtension.php"
-			],
-			[
-				"mineduadquisicioncontroller",
-				"src/Inti/MatReporteBundle/Controller/MineduAdquisicionController.php"
-			],
-			[
-				"devolucionmaterialmalestadocontroller",
-				"src/Inti/MatReporteBundle/Controller/DevolucionMaterialMalEstadoController.php"
-			],
-			[
-				"cuadrodistribucionugelcontroller",
-				"src/Inti/MatReporteBundle/Controller/CuadroDistribucionUgelController.php"
-			],
-			[
-				"formador",
-				"src/Inti/ReporteBundle/Controller/FormadorController.php"
-			],
-			[
-				"acompanantecontroller",
-				"src/Inti/ReporteBundle/Controller/AcompananteController.php"
+				"oferta",
+				"src/Cupon/OfertaBundle/Entity/Oferta.php"
 			]
 		],
 		"width": 0.0
@@ -1434,15 +390,15 @@
 		[
 			[
 				"",
-				"/C/wamp/www/sigma2/Sigma2.sublime-project"
+				"/C/wamp/www/ssdd/ssdd.sublime-project"
 			]
 		],
 		"width": 380.0
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 256.0,
+	"side_bar_width": 314.0,
 	"status_bar_visible": true
 }
