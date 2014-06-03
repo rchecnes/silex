@@ -164,6 +164,12 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/silex/src/controllers.php",
+		"/C/wamp/www/silex/templates/layout.html",
+		"/C/wamp/www/silex/templates/publicidad.html.twig",
+		"/C/wamp/www/silex/templates/index.html",
+		"/C/wamp/www/silex/config/dev.php",
+		"/C/wamp/www/silex/web/index_dev.php",
 		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Resources/views/ClasificadorGasto/clasificadorGastoRegional.html.twig",
 		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Twig/CosteoReporteExtension.php",
 		"/C/wamp/www/sigma2/src/Inti/CosReporteBundle/Resources/views/ClasificadorGasto/clasificadorGastoxActividad.html.twig",
@@ -390,7 +396,7 @@
 		[
 			[
 				"",
-				"/C/wamp/www/ssdd/ssdd.sublime-project"
+				"/C/wamp/www/sigma2/sigma2.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -399,6 +405,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 314.0,
+	"side_bar_width": 313.0,
 	"status_bar_visible": true
 }
