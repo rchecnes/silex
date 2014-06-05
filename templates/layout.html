@@ -22,11 +22,20 @@
         </script>
     </head>
     <body>
-        <header>
-            <h1>Cabecera web</h1>
-        </header>
-        {% block content %}
+        <div>
+            <header>
+                <h1 class="text-center">CABERA DE LA WEB</h1>
+            </header>
+            <section>
+              {% block content %}
 
-        {% endblock %}
+              {% endblock %}
+            </section>
+            <footer>
+                <h3>
+                    PIE DE PAGINA DE LA WEB
+                </h3>
+            </footer>
+        </div>
     </body>
 </html>

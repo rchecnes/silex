@@ -14,7 +14,9 @@ $app->get('/', function () use ($app) {
 ->bind('homepage')
 ;
 
-
+/*
+pagina de publicidad
+*/
 $app->get('/publicidad', function () use ($app) {
 
     $data['paises'] = array(
@@ -28,10 +30,33 @@ $app->get('/publicidad', function () use ($app) {
 })
 ->bind('publicidad');
 
+/*
+ejecuta algo y luego redirecciona
+*/
 
-/*$app->get('/usuario/{user_id}', function($user_id) use ($app){
-    return "Bienvenido usuario# {$user_id}";
-});*/
+$app->get('/registrar', function () use ($app) {
+echo "holaaaaa";
+    //return $app->redirect('/publicidad');
+})
+->bind('registrar');
+
+/*
+generador de errores
+*/
+$app->error(function (\Exception $e, $code) {
+    switch ($code) {
+        case 404:
+            $message = 'No hemos encontrado la página solicitada.';
+            break;
+        default:
+            $message = 'Lo sentimos pero ha sucedido un error grave.';
+    }
+
+    return new Response($message);
+});
+
+
+$app->get('/usuario', 'Loque\FuncionesController::registrar');
 
 
 $app->error(function (\Exception $e, $code) use ($app) {

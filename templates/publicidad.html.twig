@@ -9,12 +9,14 @@
                 <thead>
                     <th>Nombre</th>
                     <th>Código</th>
+                    <th>&nbsp;</th>
                 </thead>
                 <tbody>
                     {% for row in paises %}
                         <tr>
                             <td>{{row.nombre}}</td>
                             <td>{{row.codigo}}</td>
+                            <td><a href="{{path('registrar')}}" class="btn btn-default">Izquierdo</a></td>
                         </tr>
                     {% endfor %}
                 </tbody>
