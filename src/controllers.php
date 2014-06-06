@@ -29,9 +29,7 @@ $app->get('/publicidad', function () use ($app) {
 ->bind('publicidad');
 
 
-/*$app->get('/usuario/{user_id}', function($user_id) use ($app){
-    return "Bienvenido usuario# {$user_id}";
-});*/
+$app->get('/usuario', 'Loque\FuncionesController::registrar');
 
 
 $app->error(function (\Exception $e, $code) use ($app) {
