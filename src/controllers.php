@@ -9,7 +9,7 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 //Request::setTrustedProxies(array('127.0.0.1'));
 
 $app->get('/', function () use ($app) {
-    return $app['twig']->render('index.html', array());
+    return $app['twig']->render('index.html.twig', array());
 })
 ->bind('homepage')
 ;
@@ -17,25 +17,26 @@ $app->get('/', function () use ($app) {
 /*
 pagina de publicidad
 */
-$app->get('/publicidad', function () use ($app) {
+$app->get('/services', function () use ($app) {
 
-    $data['paises'] = array(
-                        array('nombre'=>'Perú','codigo'=>'56454655'),
-                        array('nombre'=>'Venezuela','codigo'=>'89787554'),
-                        array('nombre'=>'Paraguay','codigo'=>'897898465'),
-                        array('nombre'=>'EEUU','codigo'=>'7987465455')
-                        );
     $data['saludos'] = "Bienvenidos a pagina de publicidad de richard";
-    return $app['twig']->render('publicidad.html.twig', $data);
+    return $app['twig']->render('services.html.twig', $data);
 })
-->bind('publicidad');
+->bind('services');
+
+/*servicios*/
+$app->get('/portafolio', function () use ($app) {
+
+    return $app['twig']->render('portafolio.html.twig');
+})
+->bind('portafolio');
 
 /*
 ejecuta algo y luego redirecciona
 */
 
 $app->get('/registrar', function () use ($app) {
-echo "holaaaaa";
+
     //return $app->redirect('/publicidad');
 })
 ->bind('registrar');
