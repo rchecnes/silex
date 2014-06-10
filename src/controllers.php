@@ -11,20 +11,20 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 $app->get('/', function () use ($app) {
     return $app['twig']->render('index.html.twig', array());
 })
-->bind('homepage')
-;
+->bind('homepage');
 
 /*
 pagina de servicios
 */
-/*$app->get('/services', function () use ($app) {
+$app->get('/services', function () use ($app) {
 
     $data['saludos'] = "Bienvenidos a pagina de publicidad de richard";
+
     return $app['twig']->render('services.html.twig', $data);
 
 })
-->bind('services');*/
-$app->get('/services','Controller\ServicesController::showAction');
+->bind('services');
+//$app->get('/services','Controller\ServicesController::showAction');
 
 /*portafolio personal*/
 $app->get('/portafolio', function () use ($app) {
@@ -45,7 +45,7 @@ $app->get('/info', function () use ($app) {
 ->bind('info');
 
 /*precios*/
-$app->get('/price', 'rutas\RutasController::price');
+//$app->get('/price', 'rutas\RutasController::price');
 /*
 pagina de contacto
 */
