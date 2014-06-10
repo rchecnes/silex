@@ -10,12 +10,12 @@
     <link href="{{ app.request.basepath }}/css/font-awesome.min.css" rel="stylesheet">
     <link href="{{ app.request.basepath }}/css/prettyPhoto.css" rel="stylesheet">
     <link href="{{ app.request.basepath }}/css/main.css" rel="stylesheet">
-    s
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+
+    <link rel="shortcut icon" href="{{ app.request.basepath }}/images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ app.request.basepath }}/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ app.request.basepath }}/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ app.request.basepath }}/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="{{ app.request.basepath }}/images/ico/apple-touch-icon-57-precomposed.png">
     <!--javascript-->
     <script src="{{ app.request.basepath }}/js/jquery.js"></script>
     <script src="{{ app.request.basepath }}/js/bootstrap.min.js"></script>
@@ -41,7 +41,7 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#main-slider"><i class="icon-home"></i></a></li>
                         <li><a href="#services">Services</a></li>
-                        <li><a href="{{ path('portafolio') }}">Portfolio</a></li>
+                        <li><a href="{{path('portafolio')}}">Portfolio</a></li>
                         <li><a href="#pricing">Pricing</a></li>
                         <li><a href="#about-us">About Us</a></li>
                         <li><a href="#contact">Contact</a></li>
@@ -75,24 +75,7 @@
 
     {% block contenido %}
 
-<<<<<<< HEAD
     {% endblock %}
-=======
-            (function() {
-                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-            })();
-        </script>
-    </head>
-    <body>
-        <div>
-            <header>
-                <h1 class="text-center">CABERA DE LA WEB</h1>
-            </header>
-            <section>
-              {% block slider %}
->>>>>>> e4cdc83645ab8c3e1ba68ef2377a3d8565069604
 
     <footer id="footer">
         <div class="container">
@@ -101,7 +84,7 @@
                     &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
                 </div>
                 <div class="col-sm-6">
-                    <img class="pull-right" src="images/shapebootstrap.png" alt="ShapeBootstrap" title="ShapeBootstrap">
+                    <img class="pull-right" src="{{ app.request.basepath }}/images/shapebootstrap.png" alt="ShapeBootstrap" title="ShapeBootstrap">
                 </div>
             </div>
         </div>

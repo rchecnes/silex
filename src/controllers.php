@@ -15,31 +15,43 @@ $app->get('/', function () use ($app) {
 ;
 
 /*
-pagina de publicidad
+pagina de servicios
 */
 $app->get('/services', function () use ($app) {
 
     $data['saludos'] = "Bienvenidos a pagina de publicidad de richard";
     return $app['twig']->render('services.html.twig', $data);
+
 })
 ->bind('services');
 
-/*servicios*/
+/*portafolio personal*/
 $app->get('/portafolio', function () use ($app) {
 
     return $app['twig']->render('portafolio.html.twig');
+
 })
 ->bind('portafolio');
 
 /*
-ejecuta algo y luego redirecciona
+pagina de info al usuario
 */
+$app->get('/info', function () use ($app) {
 
-$app->get('/registrar', function () use ($app) {
+    return $app->render('info.html.twig');
 
-    //return $app->redirect('/publicidad');
 })
-->bind('registrar');
+->bind('info');
+
+/*
+pagina de contacto
+*/
+$app->get('/contacto', function () use ($app) {
+
+    return $app->render('contacto.html.twig');
+
+})
+->bind('contacto');
 
 /*
 generador de errores
