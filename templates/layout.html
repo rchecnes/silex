@@ -21,7 +21,7 @@
     <script src="{{ app.request.basepath }}/js/bootstrap.min.js"></script>
     <script src="{{ app.request.basepath }}/js/jquery.isotope.min.js"></script>
     <script src="{{ app.request.basepath }}/js/jquery.prettyPhoto.js"></script>
-    <script src="{{ app.request.basepath }}/js/main.js"></script>
+    <!--<script src="{#{ app.request.basepath }#}/js/main.js"></script>-->
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="0">
@@ -35,16 +35,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"></a>
+                    <a class="navbar-brand" href="{{ path('services')}}"></a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#main-slider"><i class="icon-home"></i></a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="{{path('portafolio')}}">Portfolio</a></li>
-                        <li><a href="#pricing">Pricing</a></li>
-                        <li><a href="#about-us">About Us</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="{{ path('services') }}">Services</a></li>
+                        <li><a href="{{ path('portafolio') }}">Portfolio</a></li>
+                        <li><a href="{{ path('price') }}">Pricing</a></li>
+                        <li><a href="{{ path('info') }}">About Us</a></li>
+                        <li><a href="{{ path('contacto') }}">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -81,7 +81,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
+                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">Richard Checnes</a>. Derecho reservado.
                 </div>
                 <div class="col-sm-6">
                     <img class="pull-right" src="{{ app.request.basepath }}/images/shapebootstrap.png" alt="ShapeBootstrap" title="ShapeBootstrap">

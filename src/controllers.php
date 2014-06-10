@@ -17,13 +17,15 @@ $app->get('/', function () use ($app) {
 /*
 pagina de servicios
 */
-$app->get('/services', function () use ($app) {
+/*$app->get('/services', function () use ($app) {
 
     $data['saludos'] = "Bienvenidos a pagina de publicidad de richard";
     return $app['twig']->render('services.html.twig', $data);
 
 })
-->bind('services');
+->bind('services');*/
+$app->get('/services', 'Controller\ServicesController::showServices')
+    ->bind('services');
 
 /*portafolio personal*/
 $app->get('/portafolio', function () use ($app) {
@@ -38,17 +40,19 @@ pagina de info al usuario
 */
 $app->get('/info', function () use ($app) {
 
-    return $app->render('info.html.twig');
+    return $app['twig']->render('info.html.twig');
 
 })
 ->bind('info');
 
+/*precios*/
+$app->get('/price', 'rutas\RutasController::price');
 /*
 pagina de contacto
 */
 $app->get('/contacto', function () use ($app) {
 
-    return $app->render('contacto.html.twig');
+    return $app['twig']->render('contacto.html.twig');
 
 })
 ->bind('contacto');
