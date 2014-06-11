@@ -1,6 +1,6 @@
 <?php
 // archivo src/Controller.php
-namespace Controllers;
+namespace Controller;
 
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
@@ -15,11 +15,11 @@ class ServicesController
         # code...
     }
 
-    public function showServices(Application $app)
+    public function showAction(Resquest $Request, Application $app)
     {
-        $data['saludos'] = "hola";
-        //echo "holaaaaa";
-        return $app['twig']->render('services.html.twig', $data);
+        //$data['saludos'] = "hola";
+        echo "holaaaaa ya llegamos a clases";
+        //return $app['twig']->render('services.html.twig', $data);
     }
 }
 

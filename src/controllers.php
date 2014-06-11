@@ -24,8 +24,7 @@ pagina de servicios
 
 })
 ->bind('services');*/
-$app->get('/services', 'Controller\ServicesController::showServices')
-    ->bind('services');
+$app->get('/services',          'Controller\ServicesController::showAction');
 
 /*portafolio personal*/
 $app->get('/portafolio', function () use ($app) {
