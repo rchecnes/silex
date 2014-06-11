@@ -9,6 +9,7 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 //Request::setTrustedProxies(array('127.0.0.1'));
 
 $app->get('/', function () use ($app) {
+
     return $app['twig']->render('index.html.twig', array());
 })
 ->bind('homepage');
@@ -24,7 +25,6 @@ $app->get('/services', function () use ($app) {
 
 })
 ->bind('services');
-//$app->get('/services','Controller\ServicesController::showAction');
 
 /*portafolio personal*/
 $app->get('/portafolio', function () use ($app) {
@@ -45,7 +45,11 @@ $app->get('/info', function () use ($app) {
 ->bind('info');
 
 /*precios*/
-//$app->get('/price', 'rutas\RutasController::price');
+$app->get('/preci', function () use ($app) {
+
+    return $app['twig']->render('preci.html.twig');
+
+})->bind('preci');
 /*
 pagina de contacto
 */
@@ -72,7 +76,7 @@ $app->error(function (\Exception $e, $code) {
 });
 
 
-$app->get('/usuario', 'Loque\FuncionesController::registrar');
+//$app->get('/usuario', 'Loque\FuncionesController::registrar');
 
 
 $app->error(function (\Exception $e, $code) use ($app) {

@@ -18,7 +18,7 @@ class ServicesController
     public function showAction(Resquest $Request, Application $app)
     {
         //$data['saludos'] = "hola";
-        echo "holaaaaa ya llegamos a clases";
+        //echo "holaaaaa ya llegamos a clases";
         //return $app['twig']->render('services.html.twig', $data);
     }
 }
