@@ -23,7 +23,7 @@
         "symfony/validator": "~2.3"
     },
     "autoload": {
-        "psr-0": { "rchecnes\\":"src/Controller/" }
+        "psr-4": { "rchecnes\\":"src/Ritech" }
     },
     "extra": {
         "branch-alias": {

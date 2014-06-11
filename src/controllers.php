@@ -5,64 +5,39 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
-
-//use rchecnes\ServicesController;
 //Request::setTrustedProxies(array('127.0.0.1'));
 
-$app->get('/', function () use ($app) {
+/*$app->get('/', function () use ($app) {
 
     return $app['twig']->render('index.html.twig', array());
 })
-->bind('homepage');
+->bind('homepage');*/
 
-/*
-pagina de servicios
-*/
-/*$app->get('/services', function () use ($app) {
 
-    $data['saludos'] = "Bienvenidos a pagina de publicidad de richard";
+/*home - index*/
+$app->get('/', 'rchecnes\Controller\HomeController::show')
+    ->bind('home');
 
-    return $app['twig']->render('services.html.twig', $data);
-
-})
-->bind('services');*/
-
- $app->get('/services', 'rchecnes\ServicesController::show')
-     ->bind('services');
+/*servicios*/
+ $app->get('/servicio', 'rchecnes\Controller\ServicioController::show')
+    ->bind('servicio');
 
 /*portafolio personal*/
-$app->get('/portafolio', function () use ($app) {
+$app->get('/portafolio', 'rchecnes\Controller\PortafolioController::show')
+    ->bind('portafolio');
 
-    return $app['twig']->render('portafolio.html.twig');
-
-})
-->bind('portafolio');
-
-/*
-pagina de info al usuario
-*/
-$app->get('/info', function () use ($app) {
-
-    return $app['twig']->render('info.html.twig');
-
-})
-->bind('info');
+/*pagina de info al usuario*/
+$app->get('/info', 'rchecnes\Controller\InfoController::show')
+    ->bind('info');
 
 /*precios*/
-$app->get('/preci', function () use ($app) {
+$app->get('/precio', 'rchecnes\Controller\PrecioController::show')
+    ->bind('precio');
 
-    return $app['twig']->render('preci.html.twig');
+/*pagina de contacto*/
+$app->get('/contacto', 'rchecnes\Controller\ContactoController::show')
+    ->bind('contacto');
 
-})->bind('preci');
-/*
-pagina de contacto
-*/
-$app->get('/contacto', function () use ($app) {
-
-    return $app['twig']->render('contacto.html.twig');
-
-})
-->bind('contacto');
 
 /*
 generador de errores
