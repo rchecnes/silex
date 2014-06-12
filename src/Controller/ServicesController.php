@@ -1,6 +1,6 @@
 <?php
 // archivo src/Controller.php
-namespace Controller;
+namespace rchecnes;
 
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
@@ -9,18 +9,11 @@ use Symfony\Component\HttpFoundation\Request;
 */
 class ServicesController
 {
-
-    function __construct()
-    {
-        # code...
-    }
-
-    public function showAction(Resquest $Request, Application $app)
+    public function show(Application $app, Resquest $request)
     {
         //$data['saludos'] = "hola";
         //echo "holaaaaa ya llegamos a clases";
         //return $app['twig']->render('services.html.twig', $data);
+        return "holaaaaa";
     }
 }
-
-?>

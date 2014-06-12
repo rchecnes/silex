@@ -6,6 +6,7 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
+//use rchecnes\ServicesController;
 //Request::setTrustedProxies(array('127.0.0.1'));
 
 $app->get('/', function () use ($app) {
@@ -17,14 +18,17 @@ $app->get('/', function () use ($app) {
 /*
 pagina de servicios
 */
-$app->get('/services', function () use ($app) {
+/*$app->get('/services', function () use ($app) {
 
     $data['saludos'] = "Bienvenidos a pagina de publicidad de richard";
 
     return $app['twig']->render('services.html.twig', $data);
 
 })
-->bind('services');
+->bind('services');*/
+
+ $app->get('/services', 'rchecnes\ServicesController::show')
+     ->bind('services');
 
 /*portafolio personal*/
 $app->get('/portafolio', function () use ($app) {
@@ -63,17 +67,33 @@ $app->get('/contacto', function () use ($app) {
 /*
 generador de errores
 */
-$app->error(function (\Exception $e, $code) {
+$app->error(function (\Exception $e, $code){
     switch ($code) {
         case 404:
             $message = 'No hemos encontrado la página solicitada.';
             break;
         default:
             $message = 'Lo sentimos pero ha sucedido un error grave.';
+
     }
 
     return new Response($message);
 });
+
+// $app->error(function (\Exception $e, $code) use ($app) {
+//     switch ($code) {
+//         case 404:
+//             $data['mensage'] = 'No hemos encontrado la página solicitada.';
+//             $pag_error       = 'errors/404.html';
+//             break;
+//         default:
+//             $data['mensage'] = 'Lo sentimos pero ha sucedido un error grave.';
+//             $pag_error       = 'errors/default.html';
+
+//     }
+
+//     return $app['twig']->render($pag_error,$data);
+// });
 
 
 //$app->get('/usuario', 'Loque\FuncionesController::registrar');
