@@ -161,7 +161,7 @@ a:focus {
 }
 .box.first {
   margin-top: -40px;
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 5px 5px;
 }
 .box.last {
   border-radius: 0 0 5px 5px;
@@ -176,7 +176,6 @@ a:focus {
 }
 #portfolio .box {
   background: #f3f3f3;
-  min-height: 200px;
 }
 .portfolio-items,
 .portfolio-filter {
