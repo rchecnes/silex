@@ -38,6 +38,13 @@ $app->get('/precio', 'rchecnes\Controller\PrecioController::show')
 $app->get('/contacto', 'rchecnes\Controller\ContactoController::show')
     ->bind('contacto');
 
+/*pagina de contacto*/
+$app->get('/noticia', 'rchecnes\Controller\NoticiaController::show')
+    ->bind('noticia');
+
+/*cargar grafica*/
+$app->get('/showcomparacion', 'rchecnes\Controller\NoticiaController::showComparacion')
+    ->bind('showcomparacion');
 
 /*
 generador de errores

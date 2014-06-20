@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block  contenido %}
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+<section id="services">
+        <div class="container">
+            <div class="box first">
+                <div class="row" id="grafica_comparacion_fwr">
+
+                </div><!--/.row-->
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#services-->
+<script type="text/javascript">
+$(document).ready(function(){
+
+   $.ajax({
+      type: "GET",
+      url: "{{path('showcomparacion')}}",
+      data: "",
+      success:function(data){
+        $('#grafica_comparacion_fwr').html(data)
+      }
+    });
+})
+
+</script>
+{% endblock %}
