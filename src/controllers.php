@@ -15,9 +15,12 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 
 /*home - index*/
-$app->get('/', 'rchecnes\Controller\HomeController::show')
-    ->bind('home');
+//$app->get('/', 'rchecnes\Controller\HomeController::show')
+//    ->bind('home');
 
+/*carga por defecto*/
+$app->get('/', 'rchecnes\Controller\NoticiaController::show')
+    ->bind('home');
 /*servicios*/
  $app->get('/servicio', 'rchecnes\Controller\ServicioController::show')
     ->bind('servicio');
