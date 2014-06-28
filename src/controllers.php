@@ -38,7 +38,11 @@ $app->get('/precio', 'rchecnes\Controller\PrecioController::show')
     ->bind('precio');
 
 //pagina de contacto
-$app->get('/contacto', 'rchecnes\Controller\ContactoController::show')
+//$app->get('/contacto', 'rchecnes\Controller\ContactoController::show')
+//    ->bind('contacto');
+
+//contacto de prueba dos
+$app->get('/contacto', 'rchecnes\Controller\ContactoController::showTwo')
     ->bind('contacto');
 
 //pagina de contacto
