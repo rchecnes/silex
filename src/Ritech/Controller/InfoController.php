@@ -10,7 +10,7 @@ class InfoController
     {
         $data['saludos'] = "hola";
 
-        return $app['twig']->render('info.html.twig', $data);
+        return $app['twig']->render('view/Nosotros/info.html.twig', $data);
 
     }
 }

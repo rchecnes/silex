@@ -13,7 +13,7 @@ class NoticiaController
     {
         $data['saludos'] = "hola";
 
-        return $app['twig']->render('web/Noticia/noticia.html.twig', $data);
+        return $app['twig']->render('view/Noticia/noticia.html.twig', $data);
 
     }
 
@@ -21,7 +21,7 @@ class NoticiaController
     {
         $data['saludos'] = "hola";
 
-        return $app['twig']->render('web/noticia/graficaComparacion.html.twig', $data);
+        return $app['twig']->render('view/Noticia/graficaComparacion.html.twig', $data);
 
     }
 

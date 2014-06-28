@@ -10,7 +10,7 @@ class PrecioController
     {
         $data['saludos'] = "hola";
 
-        return $app['twig']->render('precio.html.twig', $data);
+        return $app['twig']->render('view/Precio/precio.html.twig', $data);
 
     }
 }

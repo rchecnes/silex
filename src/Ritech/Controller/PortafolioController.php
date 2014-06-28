@@ -10,7 +10,7 @@ class PortafolioController
     {
         $data['saludos'] = "hola";
 
-        return $app['twig']->render('portafolio.html.twig', $data);
+        return $app['twig']->render('view/Portafolio/portafolio.html.twig', $data);
 
     }
 }
