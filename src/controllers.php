@@ -42,10 +42,29 @@ $app->get('/precio', 'rchecnes\Controller\PrecioController::show')
 //    ->bind('contacto');
 
 //contacto de prueba dos
-$app->get('/contacto', 'rchecnes\Controller\ContactoController::showTwo')
-    ->bind('contacto');
+//$app->match('/contacto', 'rchecnes\Controller\ContactoController::showTwo')
+//    ->bind('contacto');
+$app->match('/contacto', function (Request $request) use ($app){
 
-//pagina de contacto
+    $data = array(
+        'name' => 'Your name',
+        'email' => 'Your email',
+    );
+
+    $form = $app['form.factory']->createBuilder('form', $data)
+        ->add('name')
+        ->add('email')
+        ->add('gender', 'choice', array(
+            'choices' => array(1 => 'male', 2 => 'female'),
+            'expanded' => true,
+        ))
+        ->getForm();
+
+    return $app['twig']->render('view/Contacto/contactoDos.html.twig', array('form' => $form->createView()));
+})
+->bind('contacto');
+
+//pagina de noticia
 $app->get('/noticia', 'rchecnes\Controller\NoticiaController::show')
     ->bind('noticia');
 

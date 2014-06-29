@@ -21,15 +21,11 @@ class ContactoController
             'email' => 'Your email',
         );
 
-        $form = $app['form.factory']->createBuilder('form', $data)
-            ->add('name')
-            ->add('email')
-            ->add('gender', 'choice', array(
-                    'choices' => array(1 => 'male', 2 => 'female'),
-                    'expanded' => true,
-            ))
+        $form = $app['form.factory']->createBuilder('form')
+            ->add('name','text')
+            ->add('email','text')
             ->getForm();
 
-        return $app['twig']->render('view/Contacto/contactoDos.html.twig', $data);
+        return $app['twig']->render('view/Contacto/contactoDos.html.twig', array('form' => $form->createView()));
     }
 }
