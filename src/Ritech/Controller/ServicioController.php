@@ -13,7 +13,7 @@ class ServicioController
     {
         $data['saludos'] = "hola";
 
-        return $app['twig']->render('servicio.html.twig', $data);
+        return $app['twig']->render('view/Servicio/servicio.html.twig', $data);
 
     }
 }

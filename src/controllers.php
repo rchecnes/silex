@@ -15,34 +15,37 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 
 /*home - index*/
-$app->get('/', 'rchecnes\Controller\HomeController::show')
-    ->bind('home');
+//$app->get('/', 'rchecnes\Controller\HomeController::show')
+//    ->bind('home');
 
-/*servicios*/
+//carga por defecto
+$app->get('/', 'rchecnes\Controller\NoticiaController::show')
+    ->bind('home');
+//servicios
  $app->get('/servicio', 'rchecnes\Controller\ServicioController::show')
     ->bind('servicio');
 
-/*portafolio personal*/
+//portafolio personal
 $app->get('/portafolio', 'rchecnes\Controller\PortafolioController::show')
     ->bind('portafolio');
 
-/*pagina de info al usuario*/
+//pagina de info al usuario
 $app->get('/info', 'rchecnes\Controller\InfoController::show')
     ->bind('info');
 
-/*precios*/
+//precios
 $app->get('/precio', 'rchecnes\Controller\PrecioController::show')
     ->bind('precio');
 
-/*pagina de contacto*/
+//pagina de contacto
 $app->get('/contacto', 'rchecnes\Controller\ContactoController::show')
     ->bind('contacto');
 
-/*pagina de contacto*/
+//pagina de contacto
 $app->get('/noticia', 'rchecnes\Controller\NoticiaController::show')
     ->bind('noticia');
 
-/*cargar grafica*/
+//cargar grafica
 $app->get('/showcomparacion', 'rchecnes\Controller\NoticiaController::showComparacion')
     ->bind('showcomparacion');
 
