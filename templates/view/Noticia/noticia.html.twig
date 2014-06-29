@@ -1,0 +1,123 @@
+{% extends "layout.html" %}
+
+{% block  contenido %}
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+<section id="services">
+        <div class="container">
+            <div class="box first">
+                <div class="row" id="grafica_comparacion_fwr">
+                    <div class="col-sm-6" id="contenedor1"></div>
+                    <div class="col-sm-6" id="contenedor2"></div>
+                </div><!--/.row-->
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#services-->
+<script type="text/javascript">
+$(document).ready(function(){
+
+   /*$.ajax({
+      type: "GET",
+      url: "{#{path('showcomparacion')}#}",
+      data: "",
+      success:function(data){
+        $('#grafica_comparacion_fwr').html(data)
+      }
+    });*/
+
+  //grafica principal
+  // Radialize the colors
+        Highcharts.getOptions().colors = Highcharts.map(Highcharts.getOptions().colors, function(color) {
+            return {
+                radialGradient: { cx: 0.5, cy: 0.3, r: 0.7 },
+                stops: [
+                    [0, color],
+                    [1, Highcharts.Color(color).brighten(-0.3).get('rgb')] // darken
+                ]
+            };
+        });
+
+        // Build the chart
+        $('#contenedor1').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false
+            },
+            title: {
+                text: 'LOS FRAMEWORKS MÁS USADOS, 2013<br><a href="http://develoteca.com/">Info:develoteca.com</a>'
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        },
+                        connectorColor: 'silver'
+                    }
+                }
+            },
+            series: [{
+                type: 'pie',
+                name: 'Browser share',
+                data: [
+                    ['Yii',   134],
+                    ['CodeIgniter',       106],
+                    ['Zend',    70],
+                    ['Cake PHP',     76],
+                    ['Symfony',   52]
+                ]
+
+            }]
+        });
+
+    //grafica 2
+    $('#contenedor2').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false
+            },
+            title: {
+                text: 'QUE FRAMEWORK PHP ME CONVIENE UNTILIZAR<br><a href="https://blog.infranetworking.com/que-framework-php-me-conviene-utilizar/comment-page-1/">Dato:infranetworking.com</a>'
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        },
+                        connectorColor: 'silver'
+                    }
+                }
+            },
+            series: [{
+                type: 'pie',
+                name: 'Browser share',
+                data: [
+                    ['Yii',   100],
+                    ['Laravel',    100],
+                    ['Cake PHP',     100],
+                    ['Symfony',   100]
+                ]
+
+            }]
+        });
+})
+
+</script>
+{% endblock %}

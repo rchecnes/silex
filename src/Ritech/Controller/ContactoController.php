@@ -30,6 +30,10 @@ class ContactoController
             ))
             ->getForm();
 
+<<<<<<< HEAD
         return $app['twig']->render('view/Contacto/contacto.html.twig', $data);
+=======
+        return $app['twig']->render('view/Contacto/contactoDos.html.twig', $data);
+>>>>>>> 8a60d3405b6a4c3a394e3c9716497fd904d4ef3c
     }
 }
