@@ -38,13 +38,13 @@ $app->get('/precio', 'rchecnes\Controller\PrecioController::show')
     ->bind('precio');
 
 //pagina de contacto
-//$app->get('/contacto', 'rchecnes\Controller\ContactoController::show')
-//    ->bind('contacto');
+$app->get('/contacto', 'rchecnes\Controller\ContactoController::show')
+    ->bind('contacto');
 
 //contacto de prueba dos
 //$app->match('/contacto', 'rchecnes\Controller\ContactoController::showTwo')
 //    ->bind('contacto');
-$app->match('/contacto', function (Request $request) use ($app){
+/*$app->match('/contacto', function (Request $request) use ($app){
 
     $data = array(
         'name' => 'Your name',
@@ -63,6 +63,7 @@ $app->match('/contacto', function (Request $request) use ($app){
     return $app['twig']->render('view/Contacto/contactoDos.html.twig', array('form' => $form->createView()));
 })
 ->bind('contacto');
+*/
 
 //pagina de noticia
 $app->get('/noticia', 'rchecnes\Controller\NoticiaController::show')
