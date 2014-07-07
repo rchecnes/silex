@@ -1,8 +1,9 @@
-<?php
+<?php;
 namespace rchecnes\Controller;
 
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
+
 
 class ContactoController
 {
@@ -16,16 +17,15 @@ class ContactoController
 
     public function showTwo(Application $app, Request $request){
 
-        $data = array(
-            'name' => 'Your name',
-            'email' => 'Your email',
-        );
+        $data['saludos'] = "Hollaaaa";
 
-        $form = $app['form.factory']->createBuilder('form')
-            ->add('name','text')
-            ->add('email','text')
-            ->getForm();
+        return $app['twig']->render('view/Contacto/contactoDos.html.twig', $data);
+    }
 
-        return $app['twig']->render('view/Contacto/contactoDos.html.twig', array('form' => $form->createView()));
+    public function enviarMail(Application $app, Request $request){
+
+        $data['saludos'] = "holaaaa";
+
+        return $app['twig']->render('view/Contacto/contactoDos.html.twig', $data);
     }
 }

@@ -38,12 +38,15 @@ $app->get('/precio', 'rchecnes\Controller\PrecioController::show')
     ->bind('precio');
 
 //pagina de contacto
-$app->get('/contacto', 'rchecnes\Controller\ContactoController::show')
+//$app->get('/contacto', 'rchecnes\Controller\ContactoController::show')
+//    ->bind('contacto');
+
+//contacto de prueba dos enviadno
+$app->get('/contacto', 'rchecnes\Controller\ContactoController::showTwo')
     ->bind('contacto');
 
-//contacto de prueba dos
-//$app->match('/contacto', 'rchecnes\Controller\ContactoController::showTwo')
-//    ->bind('contacto');
+$app->get('/enviarmail', 'rchecnes\Controller\ContactoController::enviarMail')
+    ->bind('enviarmail');
 /*$app->match('/contacto', function (Request $request) use ($app){
 
     $data = array(
