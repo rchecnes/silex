@@ -612,6 +612,23 @@ textarea#message {
   padding: 10px 15px;
   height: 220px;
 }
+
+.container-foto{
+  position: relative;
+  /*height: 100px;*/
+  /*background-color: #fff;*/
+}
+
+.foto{
+   background-color: #fff;
+   height: 110px;
+   margin-top: -110px;
+   -webkit-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
+  border: 1px solid #A0A0A0;
+}
+
 @keyframes scaleUp {
   0% {
     opacity: 0;
@@ -662,3 +679,4 @@ textarea#message {
     -o-transform: scale(1);
   }
 }
+
