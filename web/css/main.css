@@ -121,13 +121,13 @@ a:focus {
   color: #fff;
 }
 #contact .box {
-  background-color: #222;
+  background-color: #fff;
   color: #999;
 }
 #contact .box h1,
 #contact .box h2,
 #contact .box h3 {
-  color: #fff;
+  color: #5A5A5A;
 }
 #contact .box a {
   color: #999;
@@ -135,10 +135,10 @@ a:focus {
 #contact .box a:hover {
   color: #52b6ec;
 }
-#contact .box input[type="text"],
+/*#contact .box input[type="text"],
 #contact .box input[type="email"],
 #contact .box textarea {
-  background-color: #111;
+  background-color: #FAFAFA;
   border: 0;
   -webkit-transition: 300ms;
   -moz-transition: 300ms;
@@ -152,7 +152,7 @@ a:focus {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-}
+}*/
 .box {
   padding: 50px 30px;
   background: #fff;
@@ -361,6 +361,13 @@ a:focus {
 .center {
   text-align: center;
 }
+.right{
+  text-align: right;
+}
+.left{
+  text-align: left;
+}
+
 #team-scroller .designation {
   margin-top: 10px;
   display: block;
@@ -491,7 +498,7 @@ a:focus {
 .navbar-default .navbar-nav > li > a > i {
   display: inline-block;
 }
-.navbar-default .navbar-nav > li.active > a,
+/*.navbar-default .navbar-nav > li.active > a,
 .navbar-default .navbar-nav > li.active:focus > a,
 .navbar-default .navbar-nav > li.active:hover > a,
 .navbar-default .navbar-nav > li:hover > a,
@@ -503,7 +510,28 @@ a:focus {
 .navbar-default .navbar-nav > li:focus > a:focus {
   background-color: #52b6ec;
   color: #fff;
+}*/
+
+.navbar-default .navbar-nav > li:hover > a,
+.navbar-default .navbar-nav > li:focus > a,
+.navbar-default .navbar-nav > li:hover > a:focus,
+.navbar-default .navbar-nav > li:focus > a:focus {
+  background-color: #FF6262;
+  color: #fff;
 }
+
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active:focus > a,
+.navbar-default .navbar-nav > li.active:hover > a,
+.navbar-default .navbar-nav > li.active > a:focus,
+.navbar-default .navbar-nav > li.active:focus > a:focus,
+.navbar-default .navbar-nav > li.active:hover > a:focus{
+  background-color: #52b6ec;
+  color: #fff;
+}
+
+
+
 .icon-lg {
   font-size: 48px;
   height: 108px;

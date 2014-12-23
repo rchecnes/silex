@@ -38,8 +38,8 @@ $app->get('/precio', 'rchecnes\Controller\PrecioController::show')
     ->bind('precio');
 
 //pagina de contacto
-//$app->get('/contacto', 'rchecnes\Controller\ContactoController::show')
-//    ->bind('contacto');
+$app->get('/contacto', 'rchecnes\Controller\ContactoController::show')
+    ->bind('contacto');
 
 //contacto de prueba dos enviadno
 $app->get('/contacto', 'rchecnes\Controller\ContactoController::showTwo')
@@ -47,26 +47,25 @@ $app->get('/contacto', 'rchecnes\Controller\ContactoController::showTwo')
 
 $app->get('/enviarmail', 'rchecnes\Controller\ContactoController::enviarMail')
     ->bind('enviarmail');
-/*$app->match('/contacto', function (Request $request) use ($app){
 
-    $data = array(
-        'name' => 'Your name',
-        'email' => 'Your email',
-    );
+//$app->match('/sendmail', 'rchecnes\Controller\ContactoController::sendMail')
+//    ->bind('sendmail');
+$app->match('/sendmail', function(Request $request) use ($app) {
+    
+    if ($request->isMethod('POST'))
+    {
+            $app['mailer']->send(\Swift_Message::newInstance()
+                ->setSubject("subject")
+                ->setFrom(array('silex.swiftmailer@gmail.com')) // replace with your own
+                ->setTo(array('silex.swiftmailer@gmail.com'))   // replace with email recipient
+                ->setBody("cuerpo del mail"));
 
-    $form = $app['form.factory']->createBuilder('form', $data)
-        ->add('name')
-        ->add('email')
-        ->add('gender', 'choice', array(
-            'choices' => array(1 => 'male', 2 => 'female'),
-            'expanded' => true,
-        ))
-        ->getForm();
+            return $app->redirect('contacto');
+        
+    }
 
-    return $app['twig']->render('view/Contacto/contactoDos.html.twig', array('form' => $form->createView()));
 })
-->bind('contacto');
-*/
+->bind('sendmail');
 
 //pagina de noticia
 $app->get('/noticia', 'rchecnes\Controller\NoticiaController::show')
@@ -79,7 +78,7 @@ $app->get('/showcomparacion', 'rchecnes\Controller\NoticiaController::showCompar
 /*
 generador de errores
 */
-$app->error(function (\Exception $e, $code){
+/*$app->error(function (\Exception $e, $code){
     switch ($code) {
         case 404:
             $message = 'No hemos encontrado la página solicitada.';
@@ -90,7 +89,7 @@ $app->error(function (\Exception $e, $code){
     }
 
     return new Response($message);
-});
+});*/
 
 // $app->error(function (\Exception $e, $code) use ($app) {
 //     switch ($code) {

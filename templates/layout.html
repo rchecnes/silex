@@ -6,21 +6,21 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Xeon | OnePage Responsive Theme</title>
-    <link href="{{ app.request.basepath }}/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ app.request.basepath }}/css/font-awesome.min.css" rel="stylesheet">
-    <link href="{{ app.request.basepath }}/css/prettyPhoto.css" rel="stylesheet">
-    <link href="{{ app.request.basepath }}/css/main.css" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/prettyPhoto.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/main.css')}}" rel="stylesheet">
 
-    <link rel="shortcut icon" href="{{ app.request.basepath }}/images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ app.request.basepath }}/images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ app.request.basepath }}/images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ app.request.basepath }}/images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="{{ app.request.basepath }}/images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="{{ asset('images/ico/favicon.ico') }}">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ asset('images/ico/apple-touch-icon-144-precomposed.png') }}">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('images/ico/apple-touch-icon-114-precomposed.png') }}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('images/ico/apple-touch-icon-72-precomposed.png') }}">
+    <link rel="apple-touch-icon-precomposed" href="{{ asset('images/ico/apple-touch-icon-57-precomposed.png') }}">
     <!--javascript-->
-    <script src="{{ app.request.basepath }}/js/jquery.js"></script>
-    <script src="{{ app.request.basepath }}/js/bootstrap.min.js"></script>
-    <script src="{{ app.request.basepath }}/js/jquery.isotope.min.js"></script>
-    <script src="{{ app.request.basepath }}/js/jquery.prettyPhoto.js"></script>
+    <script src="{{ asset('js/jquery.js' )}}"></script>
+    <script src="{{ asset('js/bootstrap.min.js' )}}"></script>
+    <script src="{{ asset('js/jquery.isotope.min.js' )}}"></script>
+    <script src="{{ asset('js/jquery.prettyPhoto.js' )}}"></script>
     <!--<script src="{#{ app.request.basepath }#}/js/main.js"></script>-->
 </head>
 
@@ -39,13 +39,13 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="{{ path('servicio') }}"><i class="icon-home"></i></a></li>
-                        <li><a href="{{ path('servicio') }}">Servicios</a></li>
-                        <li><a href="{{ path('portafolio') }}">Portafolio</a></li>
-                        <li><a href="{{ path('precio') }}">Precios</a></li>
-                        <li><a href="{{ path('info') }}">Nosotros</a></li>
-                        <li><a href="{{ path('noticia') }}">Noticias</a></li>
-                        <li><a href="{{ path('contacto') }}">Contáctenos</a></li>
+                        <li id="home"><a href="{{ path('servicio') }}"><i class="icon-home"></i></a></li>
+                        <li id="servicio"><a href="{{ path('servicio') }}">Servicios</a></li>
+                        <li id="portafolio"><a href="{{ path('portafolio') }}">Portafolio</a></li>
+                        <li id="precio"><a href="{{ path('precio') }}">Precios</a></li>
+                        <li id="info"><a href="{{ path('info') }}">Nosotros</a></li>
+                        <li id="noticia"><a href="{{ path('noticia') }}">Noticias</a></li>
+                        <li id="contacto"><a href="{{ path('contacto') }}">Contáctenos</a></li>
                     </ul>
                 </div>
             </div>
@@ -85,11 +85,38 @@
                     &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">Richard Checnes</a>. Derecho reservado.
                 </div>
                 <div class="col-sm-6">
-                    <img class="pull-right" src="{{ app.request.basepath }}/images/shapebootstrap.png" alt="ShapeBootstrap" title="ShapeBootstrap">
+                    <img class="pull-right" src="{{ asset('images/shapebootstrap.png') }}" alt="ShapeBootstrap" title="ShapeBootstrap">
                 </div>
             </div>
         </div>
     </footer><!--/#footer-->
     <!--javascript -->
+
+<script type="text/javascript">
+$(document).ready(function(){
+    //seleccionamos el menu
+    var url    = window.location.pathname;
+    var desde  = url.lastIndexOf('/')+1;
+    var hasta  = url.length;
+    var pagina = url.substring(desde, hasta);
+        //alert(url+"---"+desde);
+    switch(pagina) {
+        case "servicio":  $("ul.navbar-nav li#servicio").addClass("active");  break;
+        case "portafolio":$("ul.navbar-nav li#portafolio").addClass("active");break;
+        case "precio":    $("ul.navbar-nav li#precio").addClass("active");    break;
+        case "info":      $("ul.navbar-nav li#info").addClass("active");      break;
+        case "noticia":   $("ul.navbar-nav li#noticia").addClass("active");   break;
+        case "contacto":  $("ul.navbar-nav li#contacto").addClass("active");  break;
+        default:          $("ul.navbar-nav li#servicio").addClass("active");  break;
+    }
+
+    $("ul.navbar-nav>li").on("click",function(){
+        $("ul.navbar-nav>li").removeClass("active");
+        $(this).addClass("active");
+    });
+
+});
+
+</script>
 </body>
 </html>

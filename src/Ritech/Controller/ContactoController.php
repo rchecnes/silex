@@ -1,4 +1,4 @@
-<?php;
+<?php
 namespace rchecnes\Controller;
 
 use Silex\Application;
@@ -28,4 +28,13 @@ class ContactoController
 
         return $app['twig']->render('view/Contacto/contactoDos.html.twig', $data);
     }
+
+    /*public function sendMail(Application $app, Request $request){
+
+        mail("rchecnes@intimedia.net,rchecnes@intimedia.net","asuntillo","Este es el cuerpo del mensaje");
+        //echo "holaaaa";
+
+        return $app->redirect('contacto');
+    }*/
+    
 }
