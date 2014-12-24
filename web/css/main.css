@@ -620,13 +620,27 @@ textarea#message {
 }
 
 .foto{
-   background-color: #fff;
-   height: 110px;
-   margin-top: -110px;
-   -webkit-border-radius: 5px 5px 0px 0px;
-  -moz-border-radius: 5px 5px 0px 0px;
-  border-radius: 5px 5px 0px 0px;
-  border: 1px solid #A0A0A0;
+    background-color: #fff;
+    height: 110px;
+    margin-top: -110px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #A0A0A0;
+}
+
+@media (max-width: 767px) {
+  .foto {      
+      height: 150px;
+      margin-top: -189px;
+  }
+}
+
+@media (max-width: 339px) {
+  .foto {      
+      height: 165px;
+      margin-top: -204px;
+  }
 }
 
 @keyframes scaleUp {
