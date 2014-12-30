@@ -367,7 +367,9 @@ a:focus {
 .left{
   text-align: left;
 }
-
+.justyfe{
+  text-align: justify;
+}
 #team-scroller .designation {
   margin-top: 10px;
   display: block;
